@@ -1,0 +1,43 @@
+<div class="card"  style="margin-top:30px">
+  <div class="card-header" style="margin-bottom:4px;padding:10px 0 10px 3px">
+   <div class ="row" >
+    <div class="col-sm-3">
+      <b>Id</b>
+    </div>
+    <div class="col-md-3">
+        <b>Orgnisation</b>
+     </div>
+     <div class="col-md-2">
+        <b>Adminname</b>
+      </div>
+      <div class="col-md-2">
+          <b>Issuedate</b>  
+      </div>
+      <div class="col-md-2">
+        <b>Actions</b>  
+    </div>
+   </div>
+ </div>
+ <div style="max-height:420px;overflow-y:auto;overflow-x:hidden">
+  <div class="card-body" *ngFor="let array of array" style="margin-top:1px;border-bottom:1px solid #dedddd;">
+      <div class="row">
+         <div class="col-sm-3">
+           {{array.id}}
+         </div>
+        <div class="col-sm-3">
+          {{array.orgnationname}}
+         </div>
+         <div class="col-sm-2">
+           {{array.seekername}}
+          </div>
+         <div class="col-sm-2">
+           {{array.alloweddate}}
+          </div>
+          <div class="col-sm-2 row">
+              <button class="col-sm-5 btn btn-outline-primary btn-sm">Approve</button>
+              <button class="col-sm-5 btn btn-outline-danger btn-sm">DENY</button>
+           </div>
+        </div> 
+  </div>
+</div>
+</div>

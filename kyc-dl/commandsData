@@ -9,6 +9,10 @@
     "passport_number": "p987654"
   }
 }
+composer network ping --card admin@tutorial-network
+composer network ping --card admin@tutorial-network
+composer network ping --card admin@tutorial-network
+COMPOSER_PROVIDERS='{"github":{"provider":"github","module":"passport-github","clientID":"569a9dab016aaf6ebcd7","clientSecret":"5bc58f2006d7f96f05b2969ed897721fcbcb1820","authPath":"/auth/github","callbackURL":"/auth/github/callback","successRedirect":"/","failureRedirect":"/"}}'
 
 Allowtoupdate {
     ((p.getFullyQualifiedType() == 'org.acme.kyc.Aadhar_Admin')||(p.getFullyQualifiedType() == 'org.acme.kyc.Passport_Admin'))

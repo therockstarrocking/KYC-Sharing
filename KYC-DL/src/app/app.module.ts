@@ -11,19 +11,21 @@ import { DataService }     from './data.service';
 import { LoginUserInfoService } from'./login_user_info_service'
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { UserComponent } from './user/user.component';
 //import { DialogDataExampleDialog } from './requests-for-verifier/dialog-data-example'
 // import { TransactionComponent } from './Transaction/Transaction.component'
 
-import { KYC_DetailsComponent } from './KYC_Details/KYC_Details.component';
-import { SharingAssetComponent } from './SharingAsset/SharingAsset.component';
+
 import { Kyc_Seekers_RequestsComponent } from './Kyc_Seekers_Requests/Kyc_Seekers_Requests.component';
-import { Aadhar_verificationsComponent } from './Aadhar_verifications/Aadhar_verifications.component';
-import { Passport_verificationsComponent } from './Passport_verifications/Passport_verifications.component';
 import { DocumentsVerifierComponent } from './documents-verifier/documents-verifier.component';
 import { VerifierProfileComponent } from './verifier-profile/verifier-profile.component';
 import { RequestsForVerifierComponent } from './requests-for-verifier/requests-for-verifier.component';
-
+import { KYC_DetailsComponent } from './KYC_Details/KYC_Details.component';
+import { KycdetailsComponent } from './kycdetails/kycdetails.component'
+import {KycsharedComponent} from './kycshared/kycshared.component';
+import {MyprofileComponent} from './myprofile/myprofile.component';
+import {UserComponent} from './user/user.component';
+import {DashboardComponent} from './dashboard/dashboard.component'
+import {KycapprovalComponent} from './kycapproval/kycapproval.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,19 +33,19 @@ import { RequestsForVerifierComponent } from './requests-for-verifier/requests-f
     UserComponent,
     // TransactionComponent,
     KYC_DetailsComponent,
-		SharingAssetComponent,
 		Kyc_Seekers_RequestsComponent,
-		Aadhar_verificationsComponent,
-		
-    Passport_verificationsComponent,
-		
-    DocumentsVerifierComponent,
+		DocumentsVerifierComponent,
 		
     VerifierProfileComponent,
 		
-    RequestsForVerifierComponent
+    RequestsForVerifierComponent,
     //DialogDataExampleDialog
-		
+    KycapprovalComponent,
+    DashboardComponent,
+    MyprofileComponent,
+    KycsharedComponent,
+    KycdetailsComponent,
+    KYC_DetailsComponent,
   ],
   imports: [
     BrowserModule,

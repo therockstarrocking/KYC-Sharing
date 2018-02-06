@@ -1,0 +1,15 @@
+
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+      <h1 class="h2">Dashboard</h1>
+      <div class="btn-toolbar mb-2 mb-md-0">
+        <div class="btn-group mr-4">
+          <button class="btn btn-sm btn-outline-info"  [routerLinkActive]="['active']" [routerLink]="['info']">Profile</button>
+          <button class="btn btn-sm btn-outline-info"  [routerLinkActive]="['active']" [routerLink]="['mykyc']">KYC info</button>
+          <button class="btn btn-sm btn-outline-info"  [routerLinkActive]="['active']" [routerLink]="['sharingWith']">Sharing With</button>
+        </div>
+
+      </div>
+    </div><br><br>
+    <router-outlet></router-outlet>
+
+
