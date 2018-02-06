@@ -1,0 +1,184 @@
+/**
+ * Write your model definitions here
+ */
+
+namespace org.acme.kyc
+
+abstract participant Network_Users identified by id {
+  o String id
+  o String name
+  o String emailId
+}
+
+participant Aadhar_Admin extends Network_Users {
+}
+
+participant Passport_Admin extends Network_Users {
+}
+
+participant KYC_Seeker extends Network_Users{
+  o String organisation
+  o String organisation_id
+  o String location
+  --> Kyc_Seekers_Requests[] Requests_id optional
+}
+participant User extends Network_Users {
+  o String phone_number
+  o String profile_picture
+  --> KYC_Details kyc_id optional
+  --> SharingAsset sharingAssetId optional
+}
+
+/**
+ *  ALL ENUMS
+ */
+
+enum Gender {
+  o MALE
+  o FEMALE
+}
+enum Status {
+  o REQUESTED
+  o APPROVED
+  o DENIED
+  o PENDING
+  o UNDER_REVIEW
+  o VERIFIED
+}
+enum Documents {
+  o AADHAR
+  o PASSPORT
+}
+concept Documents_checklist{
+  o String number
+  o String photocopy
+  o String expiry_date optional
+  o String date_Of_issue
+}
+concept Address{
+  o String nationality
+  o String city
+  o String Address
+  o String postal_Code
+}
+concept BirthInfo{
+  o String dateOfBirth
+  o String birth_place
+}
+
+concept KYC_Information{
+  o String name
+  o Gender gender
+  o Address address
+  o BirthInfo birth_details
+}
+concept Passport_Documents {
+  o Documents document_name default="PASSPORT"
+  o Documents_checklist documents_submitted
+  o Status status default="REQUESTED" optional
+  o String approvedByPassportAdminId optional
+  --> Passport_verifications ApprovedInPassportRequest optional
+  o String remarks optional
+}
+concept Aadhar_Documents{
+  o Documents document_name default="AADHAR"
+  o Documents_checklist documents_submitted
+  o Status status default="REQUESTED" optional
+  o String approvedByAadharAdminId optional
+  --> Aadhar_verifications approvedInAadharRequest optional
+  o String remarks optional
+}
+concept Documents_status {
+  o Aadhar_Documents aadhar_documents
+  o Passport_Documents passport_documents
+}
+
+event Added_KYC {
+  o String kyc_id
+  --> User userId
+}
+event Requesting_Aadhar_verification {
+  o String aadhar_number
+  --> User userId
+}
+event Requesting_passport_verification {
+  o String passport_number
+  --> User userId
+}
+asset KYC_Details identified by kyc_id {
+  o String kyc_id
+  --> User kyc_of_userid
+  o KYC_Information KYC_Information
+  o Documents_status applied_documents_status 
+  o Status KYC_status 
+}
+asset SharingAsset identified by id{
+  o String id
+  --> User userId
+  --> KYC_Details kycId
+  o String[] sharingWithIDs
+}
+asset Kyc_Seekers_Requests identified by id{
+  o String id
+  --> KYC_Seeker KYC_Seeker_ID
+  --> User userid
+  --> KYC_Details kyc_id optional
+  o Status status
+}
+abstract asset From_Kyc identified by id {
+  o String id
+  --> User userId
+  o Status status
+}
+
+asset Aadhar_verifications extends From_Kyc{
+  o Documents_checklist documents_submitted
+  --> Aadhar_Admin updatedBy optional
+}
+
+asset Passport_verifications extends From_Kyc{
+  o Documents_checklist documents_submitted
+  --> Passport_Admin updatedBy optional
+}
+/**
+*  TRANSACTIONS
+ */
+
+transaction Send_for_KYC_approval {
+  o KYC_Information KYC_Information
+  o Documents_status Documents
+}
+abstract transaction verification_of_documents {
+  o Status status
+  o String remarks optional
+}
+
+event aadhar_Status_Update{
+  --> User userID
+}
+event passport_Status_Update{
+  --> User userID
+}
+transaction Update_AadharStatus extends verification_of_documents{
+  --> Aadhar_verifications aadhar_verifications_ID
+}
+transaction Update_PassportStatus extends verification_of_documents{
+  --> Passport_verifications passport_verifications_ID
+}
+
+event kyc_requested {
+  --> KYC_Seeker Seeker_id
+  --> User userId
+}
+transaction AskForKycDetails {
+  --> User userId
+}
+
+event kyc_requested_status_changed{
+  --> Kyc_Seekers_Requests Kyc_Seekers_Requests_id
+  o Status status 
+}
+transaction Permission_To_My_Kyc {
+  --> Kyc_Seekers_Requests Kyc_Seekers_Requests_id
+  o Status response
+}

@@ -1,0 +1,244 @@
+/**
+ * New access control file
+ */
+rule UserAcess_OnKYC{
+    description: "User has all access to his KYC details "
+    participant(p): "org.acme.kyc.User"
+    operation: READ,CREATE,DELETE
+    resource(r): "org.acme.kyc.KYC_Details"
+    condition: (r.kyc_of_userid.getIdentifier() == p.getIdentifier())
+    action: ALLOW
+}
+rule AllowSeekers{
+    description: "User has all access to his KYC details "
+    participant(p): "org.acme.kyc.KYC_Seeker"
+    operation: READ
+    resource(r): "org.acme.kyc.KYC_Details"
+    condition: (r.kyc_of_userid.sharingAssetId.sharingWithIDs && r.kyc_of_userid.sharingAssetId.sharingWithIDs.indexOf(p.getFullyQualifiedIdentifier()) > -1)
+    action: ALLOW
+}
+rule Kyc_seekersAccessonAV{
+    description: "Passport_admins can only read and update details until its approved"
+    participant(p): "org.acme.kyc.KYC_Seeker"
+    operation: READ
+    resource(r): "org.acme.kyc.Aadhar_verifications"
+    condition: (r.userId.sharingAssetId.sharingWithIDs.indexOf(p.getFullyQualifiedIdentifier()) > -1 && r.userId.kyc_id.applied_documents_status.aadhar_documents.approvedByAadharAdminId == r.updatedBy.getFullyQualifiedIdentifier() && r.userId.kyc_id.applied_documents_status.aadhar_documents.approvedInAadharRequest.getIdentifier() == r.getIdentifier())
+    action: ALLOW
+}
+rule Kyc_seekersAccessonPV{
+    description: "Passport_admins can only read and update details until its approved"
+    participant(p): "org.acme.kyc.KYC_Seeker"
+    operation: READ
+    resource(r): "org.acme.kyc.Passport_verifications"
+    condition: (r.userId.sharingAssetId.sharingWithIDs.indexOf(p.getFullyQualifiedIdentifier()) > -1 && (r.userId.kyc_id.applied_documents_status.passport_documents.approvedByPassportAdminId == r.updatedBy.getFullyQualifiedIdentifier()) && r.userId.kyc_id.applied_documents_status.passport_documents.ApprovedInPassportRequest.getIdentifier() == r.getIdentifier())
+    action: ALLOW
+}
+rule onlyOwnerOfSharingAsset{
+    description: "User has all access to his KYC details "
+    participant(p): "org.acme.kyc.User"
+    operation: ALL
+    resource(r): "org.acme.kyc.SharingAsset"
+    condition: (r.userId.getIdentifier() == p.getIdentifier())
+    action: ALLOW
+}
+rule AllowSeekersInSharingAsset{
+    description: "User has all access to his KYC details "
+    participant(p): "org.acme.kyc.KYC_Seeker"
+    operation: READ
+    resource(r): "org.acme.kyc.SharingAsset"
+    condition: (r.sharingWithIDs && r.sharingWithIDs.indexOf(p.getFullyQualifiedIdentifier()) > -1)
+    action: ALLOW
+}
+rule RestrictAccessToSharingAsset{
+    description: "User has all access to his KYC details "
+    participant: "org.acme.kyc.*"
+    operation: ALL
+    resource: "org.acme.kyc.SharingAsset"
+    action: DENY
+}
+rule onlyOwnerOfKyc_Seekers_Requests{
+    description: "User has all access to his KYC details "
+    participant(p): "org.acme.kyc.KYC_Seeker"
+    operation: READ, CREATE
+    resource(r): "org.acme.kyc.Kyc_Seekers_Requests"
+    condition: (r.KYC_Seeker_ID.getIdentifier() == p.getIdentifier())
+    action: ALLOW
+}
+rule onlyUserOfKyc_Seekers_Requests{
+    description: "User has all access to his KYC details "
+    participant(p): "org.acme.kyc.User"
+    operation: READ, UPDATE
+    resource(r): "org.acme.kyc.Kyc_Seekers_Requests"
+    condition: (r.userid.getIdentifier() == p.getIdentifier())
+    action: ALLOW
+}
+rule RestrictAccessToKyc_Seekers_Requests{
+    description: "User has all access to his KYC details "
+    participant: "org.acme.kyc.*"
+    operation: ALL
+    resource: "org.acme.kyc.Kyc_Seekers_Requests"
+    action: DENY
+}
+
+rule AllAccessTo_AAdmins{
+    description: "Denial of acess if not a owner of the asset"
+    participant: "org.acme.kyc.Aadhar_Admin"
+    operation: ALL
+    resource: "org.acme.kyc.Aadhar_verifications"
+    action: ALLOW
+}
+rule AllAccessTo_PAdmins{
+    description: "Denial of acess if not a owner of the asset"
+    participant: "org.acme.kyc.Passport_Admin"
+    operation: ALL
+    resource: "org.acme.kyc.Passport_verifications"
+    action: ALLOW
+}
+rule AllowToUpdateAadhar{
+    description: "Aadhar_admins can only read and update details until its approved"
+    participant(p): "org.acme.kyc.Aadhar_Admin"
+    operation: UPDATE, READ
+    resource(r): "org.acme.kyc.KYC_Details"
+    condition: (r.applied_documents_status.aadhar_documents.status != "APPROVED")
+    action: ALLOW
+}
+rule AllowToUpdatePassport{
+    description: "Passport_admins can only read and update details until its approved"
+    participant(p): "org.acme.kyc.Passport_Admin"
+    operation: UPDATE, READ
+    resource(r): "org.acme.kyc.KYC_Details"
+    condition: (r.applied_documents_status.passport_documents.status != "APPROVED")
+    action: ALLOW
+}
+
+rule DenyIfNotOwner{
+    description: "Denial of acess if not a owner of the asset"
+    participant: "org.acme.kyc.*"
+    operation: ALL
+    resource: "org.acme.kyc.KYC_Details"
+    action: DENY
+}
+rule UserControl_on_AV{
+    description: "Users Access on Aadhar_verifications"
+    participant: "org.acme.kyc.User"
+    operation: CREATE
+    resource: "org.acme.kyc.Aadhar_verifications"
+    action: ALLOW
+}
+rule UserControl_on_his_AV{
+    description: "Users Access on Aadhar_verifications"
+    participant(p): "org.acme.kyc.User"
+    operation: READ
+    resource(r): "org.acme.kyc.Aadhar_verifications"
+    condition: (r.userId.getIdentifier()==p.getIdentifier())
+    action: ALLOW
+}
+rule Restrict_participantsOnAV{
+    description: "Participants with no above rights cannot access Aadhar_verifications asset"
+    participant: "org.acme.kyc.*"
+    operation: ALL
+    resource: "org.acme.kyc.Aadhar_verifications"
+    action: DENY
+}
+
+rule UserControl_on_PV{
+    description: "Users Access on passport_verifications"
+    participant: "org.acme.kyc.User"
+    operation: CREATE
+    resource: "org.acme.kyc.Passport_verifications"
+    action: ALLOW
+}
+rule UserControl_on_his_PV{
+    description: "Users Access on Aadhar_verifications"
+    participant(p): "org.acme.kyc.User"
+    operation: READ
+    resource(r): "org.acme.kyc.Passport_verifications"
+    condition: (r.userId.getIdentifier()==p.getIdentifier())
+    action: ALLOW
+}
+rule Restrict_ParticipantsOnPV{
+    description: "Participants with no above rights cannot access Aadhar_verifications asset"
+    participant: "org.acme.kyc.*"
+    operation: ALL
+    resource: "org.acme.kyc.Passport_verifications"
+    action: DENY
+}
+rule Request_to_add_KYC{
+    description: "only users can request to verify their KYC"
+    participant(p): "org.acme.kyc.*"
+    operation: ALL
+    resource(r): "org.acme.kyc.Send_for_KYC_approval"
+    condition: ((p.getFullyQualifiedType() == 'org.acme.kyc.User'))
+    action: ALLOW
+}
+
+rule Update_AadharStatus_acess{
+    description: "Denial of acess if not a owner of the asset"
+    participant(p): "org.acme.kyc.*"
+    operation: ALL
+    resource(r): "org.acme.kyc.Update_AadharStatus"
+    condition: (p.getFullyQualifiedType() != 'org.acme.kyc.Aadhar_Admin')
+    action: DENY
+}
+rule Update_PassportStatus_access{
+    description: "Denial of acess if not a owner of the asset"
+    participant(p): "org.acme.kyc.*"
+    operation: ALL
+    resource(r): "org.acme.kyc.Update_PassportStatus"
+    condition: (p.getFullyQualifiedType() != 'org.acme.kyc.Passport_Admin')
+    action: DENY
+}
+rule AllowOnlyFortheirIdentity{
+    description: "Denial of acess if not a owner of the asset"
+    participant(p): "org.acme.kyc.*"
+    operation: ALL
+    resource(r): "org.acme.kyc.*"
+    condition: (p.id == r.id)
+    action: ALLOW
+}
+rule SharingAssetAccess{
+    description: "Denial of acess if not a owner of the asset"
+    participant: "org.acme.kyc.User"
+    operation: ALL
+    resource: "org.acme.kyc.SharingAsset"
+    action: ALLOW
+}
+rule SharingAssetConditionalAccess{
+    description: "Denial of acess if not a owner of the asset"
+    participant(p): "org.acme.kyc.KYC_Seeker"
+    operation: READ
+    resource(r): "org.acme.kyc.SharingAsset"
+    condition: (r.sharingWithIDs && r.sharingWithIDs.indexOf(p.getFullyQualifiedIdentifier()) < 0)
+    action: ALLOW
+}
+rule createSharingAcess{
+    description: "Denial of acess if not a owner of the asset"
+    participant(p): "org.acme.kyc.*"
+    operation: CREATE
+    resource(r): "org.acme.kyc.SharingAsset"
+    condition: (p.getFullyQualifiedType == "org.acme.kyc.Aadhar_Admin" || p.getFullyQualifiedType == 'org.acme.kyc.Passport_Admin')
+    action: ALLOW
+}
+rule SharingAssetDenial{
+    description: "Denial of acess if not a owner of the asset"
+    participant: "org.acme.kyc.*"
+    operation: ALL
+    resource: "org.acme.kyc.SharingAsset"
+    action: DENY
+}
+
+rule Default {
+    description: "Allow all participants access to all resources"
+    participant: "ANY"
+    operation: ALL
+    resource: "org.acme.kyc.*"
+    action: ALLOW
+}
+
+rule SystemACL {
+  description:  "System ACL to permit all access"
+  participant: "ANY"
+  operation: ALL
+  resource: "org.hyperledger.composer.system.**"
+  action: ALLOW
+}

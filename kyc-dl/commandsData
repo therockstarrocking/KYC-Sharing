@@ -1,0 +1,26 @@
+{
+  "$class": "org.acme.kyc.Send_for_KYC_approval",
+  "KYC_Information": {
+    "$class": "org.acme.kyc.KYC_Information",
+    "name": "jaswanth",
+    "dob": "1994-02-02",
+    "gender": "MALE",
+    "aadhar_number": "123456789",
+    "passport_number": "p987654"
+  }
+}
+
+Allowtoupdate {
+    ((p.getFullyQualifiedType() == 'org.acme.kyc.Aadhar_Admin')||(p.getFullyQualifiedType() == 'org.acme.kyc.Passport_Admin'))
+}
+
+u1_89REQUESTED   u2_31REQUESTED
+
+u1_54REQUESTED   u2_4pREQUESTED
+
+o REQUESTED
+  o APPROVED
+  o DENIED
+  o PENDING
+  o UNDER_REVIEW
+  o VERIFIED

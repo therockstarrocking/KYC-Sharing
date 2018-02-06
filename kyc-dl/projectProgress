@@ -1,0 +1,51 @@
+
+1. Rstrict user from submitting KYC second time
+    u1_23REQUESTED
+
+
+
+
+
+{
+  "$class": "org.acme.kyc.Send_for_KYC_approval",
+  "KYC_Information": {
+    "$class": "org.acme.kyc.KYC_Information",
+    "name": "RAMANA",
+    "gender": "MALE",
+    "address": {
+      "$class": "org.acme.kyc.Address",
+      "nationality": "INDIAN",
+      "city": "HYD",
+      "Address": " EMPTY NOW ",
+      "postal_Code": "9874"
+    },
+    "birth_details": {
+      "$class": "org.acme.kyc.BirthInfo",
+      "dateOfBirth": "2015-02-02",
+      "birth_place": "KTK"
+    }
+  },
+  "Documents": {
+    "$class": "org.acme.kyc.Documents_status",
+    "aadhar_documents": {
+      "$class": "org.acme.kyc.Aadhar_Documents",
+      "document_name": "AADHAR",
+      "documents_submitted": {
+        "$class": "org.acme.kyc.Documents_checklist",
+        "number": "98741265",
+        "photocopy": " BASE64",
+        "date_Of_issue": "2015-02-02"
+      }
+    },
+    "passport_documents": {
+      "$class": "org.acme.kyc.Passport_Documents",
+      "document_name": "AADHAR",
+      "documents_submitted": {
+        "$class": "org.acme.kyc.Documents_checklist",
+        "number": "P98412626",
+        "photocopy": "BASE64",
+        "date_Of_issue": "2016-02-02"
+      }
+    }
+  }
+}

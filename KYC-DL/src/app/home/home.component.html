@@ -1,0 +1,35 @@
+
+<div class="bg"></div>
+<div>
+	<router-outlet></router-outlet>
+</div>
+<div class="container  animated fadeIn">
+	
+<div>
+	<h2>
+	<a href="#">Login</a>
+	</h2>
+</div>
+<hr>
+<form [formGroup]="loginForm" (ngSubmit)="enroll($event)">
+	<div>
+		<br><br>
+		<div> 
+			<input type="text" name="usercard" placeholder="User Card" formControlName="userCard">
+		</div>
+		<button class="col-sm-12" type="submit" [disabled]="loginForm.invalid"> ENROLL </button>
+	</div>
+		<br>
+	</form>
+</div>
+<ul class="bubbles">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>

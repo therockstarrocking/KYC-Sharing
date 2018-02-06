@@ -1,0 +1,98 @@
+
+<div class="card" >
+  <div class="card-header" style="padding:1.5rem 1.25rem;font-style:bold">
+    <div class="row">
+      <div class="col-sm-3">
+        Request Id
+      </div>
+      <div class="col-sm-2">
+        From
+      </div>
+      <div class="col-sm-2">
+        Aadhar Number
+      </div>
+      <div class="col-sm-2">
+          Issued Date
+      </div>
+      <div class="col-sm-2">
+        Status
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="card" style="margin-top:2px" *ngFor="let req of requests;let i=index">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-sm-3">{{req.id}}</div>
+        <div class="col-sm-2">{{req.userId}}</div>
+        <div class="col-sm-2">{{req.documents_submitted.number}}</div>
+        <div class="col-sm-2">{{req.documents_submitted.date_Of_issue}}</div>
+        <div class="col-sm-2">{{req.status}}</div>
+        <div class="col-sm-1"><button class="btn btn-outline-info" data-toggle="modal" data-target="#Request" (click)="viewRequest(i)">View</button></div>
+      </div>
+    </div>
+    </div>
+<div class="modal fade" id="Request" tabindex="-1" role="dialog" aria-labelledby="deleteAssetModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="deleteAssetModalLabel">Request Information</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-sm-5 row">
+            <div class="col-sm-12">
+              <img class="col-sm-12" src="https://www.aadharcard.net/wp-content/uploads/2017/05/aadhar-card-photo.jpg" style="border-radius:1%;height:200px;">
+            </div>
+            <div class="col-sm-12">
+              <img class="col-sm-12" src="https://www.aadharcard.net/wp-content/uploads/2017/05/aadhar-card-photo.jpg" style="border-radius:1%;height:200px;">
+            </div>
+          </div>
+          <div class="row col-sm-7">
+            <div class="row col-sm-7">
+              <div class="col-sm-6 ub"> USER ID </div> <div class="col-sm-6 ud">: {{user.kyc_of_userid}}</div>
+              <div class="col-sm-6 ub"> NAME </div><div class="col-sm-6  ud">: {{user.KYC_Information.name}}</div>
+              <div class="col-sm-6 ub"> GENDER</div><div class="col-sm-6  ud">: {{user.KYC_Information.gender}}</div>
+              <div class="col-sm-6 ub"> BIRTHDAY</div><div class="col-sm-6  ud">: {{user.KYC_Information.birth_details.dateOfBirth}}</div>
+              <div class="col-sm-6 ub"> BRITH PLACE</div><div class="col-sm-6  ud">: {{user.KYC_Information.birth_details.birth_place}}</div><br>
+              <div class="col-sm-6 ub"> NATIONALITY </div><div class="col-sm-6  ud">: {{user.KYC_Information.address.nationality}}</div>
+              <div class="col-sm-6 ub"> CITY </div><div class="col-sm-6  ud">: {{user.KYC_Information.address.city}}</div>
+              <div class="col-sm-6 ub"> POSTAL CODE </div><div class="col-sm-6  ud">: {{user.KYC_Information.address.postal_Code}}</div>
+              <div class="col-sm-6 ub"> Address </div><div class="col-sm-6  ud">: {{user.KYC_Information.address.Address}}</div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4" style="border-left:2px solidgrey;background-color: #8080800a;padding: 30px 4px;border-radius: 7px;box-shadow: 1px 1px 1px 1px;">
+              <div class="col-sm-12">
+                <label>Select Response</label>
+                <select class="form-control" style="height:37px;width: 180px;"> 
+                  <option>PENDING</option>
+                  <option>UNDER_REVIEW</option>
+                  <option>DENY</option>
+                  <option>APPROVED</option>
+                </select>
+              </div><br><br><br><div class="col-sm-12" style="height:50px"></div>
+              <div class="col-sm-12">
+               <h5>REMARKS <span style="color:red">* (if any)</span> </h5>
+              </div><br>
+              <div class="col-sm-12">
+                <textarea style="min-height:100px;max-height:150px;" placeholder="Mandatory for DENY response" class="form-control"></textarea>
+              </div>
+              <div class="col-sm-12" style="height:50px"></div>
+              <div class="col-sm-12 row">
+                  <div class="col-sm-6">
+                     <button class="btn btn-outline-primary">SUBMIT</button>
+                  </div>
+                  <div class="col-sm-6">
+                      <button class="btn btn-outline-danger" data-dismiss="modal">CANCEL</button>
+                   </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          
+        </div>
+      </div>
+    </div>
+  </div>
