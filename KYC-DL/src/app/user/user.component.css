@@ -1,5 +1,5 @@
 body {
-   
+   background-color: #fff !important;
   }
   
   .feather {
@@ -81,9 +81,8 @@ body {
 }
 .navbar-dark .navbar-nav .nav-link {
   color: rgb(208, 204, 204);
-  font-size: 1.5rem;
-  padding-bottom: 10px;
-  margin-left: 800%;
+  margin-top: -25px;
+  margin-left: 70px;
 }
   .navbar .form-control {
     padding: .75rem 1rem;

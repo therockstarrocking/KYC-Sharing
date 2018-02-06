@@ -1,11 +1,11 @@
 
 
- 
-<div class="card">
-    <div class="card-header">
+ <div>
+<div class=" col-sm-10">
+    <div class=" card card-header">
      <div class ="row">
       <div class="col-sm-9">
-       <h5>User Information</h5>
+       <h5><b>User Information</b></h5>
 
       </div>
       <div class="col-md-3">
@@ -13,32 +13,32 @@
       </div>
      </div>
    </div>
-    <div class="card-body">
+    <div class="card card-body">
         <div class="row">
             <div class="col-sm-4">
-              <b>Saiomkar</b>
+              <b>{{userdetails.name}}</b>
               <div class="row">
                 <div class="col-sm-10">
-                  member since 2010
+                  <i>Network ID :</i> {{userdetails.id}}
                 </div>
                   </div>
             </div>
             <div class="col-sm-4">
-              <b>vudathasaiomkar@gmail.com</b>
-              <div class="col-sm-10">
-                  member since 2010
-                </div>
+              <b>{{userdetails.emailId}}</b>
              </div>
              <div class="col-sm-4">
-                <b>vudathasaiomkar@gmail.com</b>
-                <div class="col-sm-10">
-                    member since 2010
-                  </div>
+                <b>{{userdetails.phone_number}}</b>
              </div>
           </div> 
     </div>
   </div>
+  <div class="col-sm-2">
+       <img class="dp" style="height:115px">
+  </div>
+  </div>
+  <div style="clear:both"></div>
   <br><br>
+  <div>
   <div class="row" style="margin-left:1px;margin-right:2px;background-color:#dedddd17">
     <div class="col-sm-8" style="border:2px solid rgba(0,0,0,.125);background-color:inherit">
         <div class="card-body">
@@ -66,9 +66,9 @@
     </div>
  
   </div>
-  <div class="row" style="margin-left: 1px;margin-right: 2px;background-color:#dedddd17;margin-bottom:30px">
+  <div class="row" *ngIf="userdetails?.kyc_id != undefined;else request" style="margin-left: 1px;margin-right: 2px;background-color:#dedddd17;margin-bottom:30px">
    <div class="col-sm-8" style="margin-top:2px;border:2px solid rgba(0,0,0,.125);background-color:inherit">
-        <div class="card-body">
+        <div class="card-body" *ngIf="userdetails?.kyc_id != undefined;else request">
             <div class="row">
                 <div class="col-sm-6" style="border:.5px solidgrey">
                    <p>COUNTRY</p>
@@ -99,7 +99,7 @@
             </div>
     </div>
     <div class="col-sm-4" style="margin-top:2px;border:2px solid rgba(0,0,0,.125);background-color: inherit;">
-        <div class="card-body">
+        <div class="card-body" >
             <div class="row">
                 <div class="col-sm-7" style="border:.5px solidgrey">
                    <p>Date Of Birth</p>
@@ -116,6 +116,13 @@
             </div>
             </div>
     </div>
+    
+  </div>
+  <ng-template #request class="col-sm-12">
+        <div class="card card-body" style="margin-left: 1px;margin-right: 2px;background-color:#dedddd17;margin-bottom:30px">
+            <h6>No information found .. please register your details <a [routerLink]="['../../KYC_Details']">here</a></h6>
+        </div>
+    </ng-template>
   </div>
   
   
