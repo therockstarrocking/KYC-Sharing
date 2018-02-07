@@ -1,0 +1,24 @@
+.btn-outline-info:hover {
+    color: black;
+    background-color: #eee;
+    border-color: #17a2b8;
+}
+.modal-ku {
+    width: 1200px;
+    
+  }
+img{
+    margin-top: 10px;
+}
+.modal-lg {
+    width:1200px;
+    max-width: 1200px;
+}
+.ub{
+    font-weight: bold;
+    font-style: bold;
+    margin-top:10px;
+}
+.ud{
+    margin-top:10px;
+}

@@ -66,6 +66,42 @@ export class RequestsForVerifierComponent implements OnInit {
       "id": "nu1_65REQUESTED",
       "userId": "resource:org.acme.kyc.User#nu1",
       "status": "REQUESTED"
+    },
+    {
+      "$class": "org.acme.kyc.Aadhar_verifications",
+      "documents_submitted": {
+        "$class": "org.acme.kyc.Documents_checklist",
+        "number": "98741265",
+        "photocopy": " BASE64",
+        "date_Of_issue": "2015-02-02"
+      },
+      "id": "nu1_65REQUESTED",
+      "userId": "resource:org.acme.kyc.User#nu1",
+      "status": "REQUESTED"
+    },
+    {
+      "$class": "org.acme.kyc.Aadhar_verifications",
+      "documents_submitted": {
+        "$class": "org.acme.kyc.Documents_checklist",
+        "number": "98741265",
+        "photocopy": " BASE64",
+        "date_Of_issue": "2015-02-02"
+      },
+      "id": "nu1_65REQUESTED",
+      "userId": "resource:org.acme.kyc.User#nu1",
+      "status": "REQUESTED"
+    },
+    {
+      "$class": "org.acme.kyc.Aadhar_verifications",
+      "documents_submitted": {
+        "$class": "org.acme.kyc.Documents_checklist",
+        "number": "98741265",
+        "photocopy": " BASE64",
+        "date_Of_issue": "2015-02-02"
+      },
+      "id": "nu1_65REQUESTED",
+      "userId": "resource:org.acme.kyc.User#nu1",
+      "status": "REQUESTED"
     }];
     this.user = {"kyc_id": "nu1_65_26",
     "kyc_of_userid": "nu1",

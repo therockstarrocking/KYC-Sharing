@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LoginUserInfoService } from '../login_user_info_service';
 
 @Component({
   selector: 'app-documents-verifier',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./documents-verifier.component.css']
 })
 export class DocumentsVerifierComponent implements OnInit {
-
-  constructor() { }
+  userDetails:any;
+  constructor(private ls:LoginUserInfoService) { }
 
   ngOnInit() {
+    this.userDetails = this.ls.getUser();
+    console.log("Administrator Details: ",this.userDetails);
   }
 
 }
