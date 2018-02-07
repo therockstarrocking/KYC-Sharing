@@ -1,6 +1,6 @@
 
 
- 
+ <form  [formGroup]="kyc_form" (ngSubmit)="send_kyc_request($event)">
 <div class="card" style="margin-top:35px">
     <div class="card-header">
      <div class ="row">
@@ -11,13 +11,13 @@
       
      </div>
    </div>
-    <div class="card-body">
+    <div class="card-body" formGroupName="KYC_Information" >
         <div class="row">
             <div class="col-sm-4">
               <b>Name</b>
               <div class="row" style="margin-top:5px">
                 <div class="col-sm-10" >
-             <input type="text"  class="form-control" >
+             <input type="text"  class="form-control" formControlName="name" >
                 </div>
                   </div>
             </div>
@@ -25,7 +25,7 @@
               <b>Email Address</b>
               <div class="row" style="margin-top:5px">
               <div class="col-sm-10">
-                  <input type="text"  class="form-control" >
+                  <input type="text"  class="form-control"  value="example.com" readonly>
                 </div>
               </div>
              </div>
@@ -34,15 +34,15 @@
                 <div class="row" style="margin-top:5px">
                 <div class="col-sm-10">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <input class="form-check-input" type="radio"  formControlName="gender" name="gender" id="inlineRadio1" value="option1">
                         <label class="form-check-label" for="inlineRadio1">Male</label>
                       </div>
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <input class="form-check-input" type="radio" formControlName="gender" name="gender" id="inlineRadio2" value="option2">
                         <label class="form-check-label" for="inlineRadio2">Female</label>
                       </div>
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
+                        <input class="form-check-input" type="radio" formControlName="gender" name="gender" id="inlineRadio3" value="option3" >
                         <label class="form-check-label" for="inlineRadio3">Others</label>
                       </div>
                   </div>
@@ -75,32 +75,32 @@
     </div>
  
   </div>
-  <div class="row" style="margin-left: 1px;margin-right:2px;background-color:#dedddd17;">
+  <div class="row" style="margin-left: 1px;margin-right:2px;background-color:#dedddd17;" formGroupName="KYC_Information">
    <div class="col-sm-8" style="margin-top:2px;border:1px solid rgba(0,0,0,.125);background-color:#fff">
-        <div class="card-body">
+        <div class="card-body" formGroupName="address">
             <div class="row">
                 <div class="col-sm-6" style="border:.5px solidgrey">
                    <p>Country</p>
                   <div class="col-sm-9">
-                      <input type="text"  class="form-control" >
+                      <input type="text" formControlName="nationality" class="form-control" >
                     </div>
                 </div>
                 <div class="col-sm-6" style="border:.5px solidgrey">
                     <p>State</p>
                    <div class="col-sm-9">
-                      <input type="text"  class="form-control" >
+                      <input type="text"  formControlName="city" class="form-control" >
                      </div>
                  </div>
                  <div class="col-sm-6" style="margin-top:10px">
                     <p>Address</p>
                    <div class="col-sm-9">
-                      <input type="text"  class="form-control" >
+                      <input type="text" formControlName="Address" class="form-control" >
                      </div>
                  </div>
                  <div class="col-sm-6" style="margin-top:10px">
                     <p>POSTAL CODE</p>
                    <div class="col-sm-9">
-                      <input type="text"  class="form-control" >
+                      <input type="text" formControlName="postal_Code" class="form-control" >
                      </div>
                  </div>
                 
@@ -108,13 +108,13 @@
             </div>
     </div>
     <div class="col-sm-4" style="margin-top:2px;border:2px solid rgba(0,0,0,.125);background-color:#fff;">
-        <div class="card-body">
-            <div class="row">
+        <div class="card-body" formGroupName="birth_details">
+            <div class="row" >
                 <div class="col-sm-5" style="border:.5px solidgrey">
                    <p>Date Of Birth</p>
                 </div>           
                   <div class="col-sm-7">
-                      <input type="date"  class="form-control" placeholder="format:12-05-1994" >
+                      <input type="date"  class="form-control" formControlName="dateOfBirth" placeholder="format:12-05-1994" >
                     </div>
                   
                 </div>
@@ -123,7 +123,7 @@
                     <p>Place Of Birth</p>
                 </div>
                    <div class="col-sm-7">
-                      <input type="text"  class="form-control" >
+                      <input type="text" formControlName="birth_place" class="form-control" >
                      </div>
                   
                  </div>
@@ -157,31 +157,31 @@
       </div>
   </div>
   
-  <div class="row" style="margin-left: 1px;margin-right:2px;margin-top:2px;background-color:#dedddd17;">
+  <div formGroupName="Documents"  class="row" style="margin-left: 1px;margin-right:2px;margin-top:2px;background-color:#dedddd17;">
 
     
-      <div class="col-sm-6" style="border:2px solid rgba(0,0,0,.125);background-color:#fff">
-          <div class="card-body">
+      <div class="col-sm-6" style="border:2px solid rgba(0,0,0,.125);background-color:#fff" formGroupName="aadhar_documents">
+          <div class="card-body" formGroupName="documents_submitted">
               <div class="row">
                   <div class="col-sm-11" style="border:.5px solidgrey">
                      <p>Aadhar-Number</p>
                     <div class="col-sm-11">
-                        <input type="text"  class="form-control" >
+                        <input type="text" formControlName="number" class="form-control" >
                       </div>
                   </div>
            
                    <div class="col-sm-6" style="margin-top:10px">
                       <p>Issue-date</p>
                      <div class="col-sm-9">
-                        <input type="text"  class="form-control" >
+                        <input type="date" formControlName="date_Of_issue" class="form-control" >
                        </div>
                    </div>
                    <div class="col-sm-6" style="margin-top:10px">
                       <p>upload photo</p>
                      <div class="col-sm-9">
                     
-                        <button class="btn btn-secondary" type="button" (click)="showFiles()"> Upload Profile Photo<input style="display:none" id="file" type="file" (change)="changeListner($event)" accept=".jpg,.png" /></button>&nbsp;&nbsp;
-                        <img class="image" style="height:40px;margin:-10px;" />
+                        <button class="btn btn-secondary" type="button"> Upload Aadhar Photo<input style="" id="file" type="file" (change)="changeListner($event,'aimg')" accept=".jpg,.png" /></button>&nbsp;&nbsp;
+                        <img class="aimg" style="height:40px;margin:-10px;" />
                        
                        </div>
                    </div>
@@ -189,27 +189,27 @@
                 </div>
               </div>
       </div>
-      <div class="col-sm-6" style="border:2px solid rgba(0,0,0,.125);background-color:#fff">
-          <div class="card-body">
+      <div formGroupName="passport_documents" class="col-sm-6" style="border:2px solid rgba(0,0,0,.125);background-color:#fff" >
+          <div class="card-body" formGroupName="documents_submitted">
               <div class="row">
                   <div class="col-sm-11" style="border:.5px solidgrey">
                      <p>Passport-Number</p>
                     <div class="col-sm-11">
-                        <input type="text"  class="form-control" >
+                        <input type="text" formControlName="number" class="form-control" >
                       </div>
                   </div>
                   
                    <div class="col-sm-6" style="margin-top:10px">
                       <p>Issue Date</p>
                      <div class="col-sm-9">
-                        <input type="text"  class="form-control" >
+                        <input type="date" formControlName="date_Of_issue" class="form-control" >
                        </div>
                    </div>
                    <div class="col-sm-6" style="margin-top:10px">
                       <p>upload photo</p>
                      <div class="col-sm-9">
-                        <button class="btn btn-secondary" type="button" (click)="showFiles()"> Upload Profile Photo<input style="display:none" id="file" type="file" (change)="changeListner($event)" accept=".jpg,.png" /></button>&nbsp;&nbsp;
-                        <img class="image" style="height:40px;margin:-10px;" />
+                        <button class="btn btn-secondary" type="button"> Upload Profile Photo<input style="" id="file" type="file" (change)="changeListner($event,'ppic')" accept=".jpg,.png" /></button>&nbsp;&nbsp;
+                        <img class="ppic" style="height:40px;margin:-10px;" />
                        </div>
                    </div>
                   
@@ -232,7 +232,7 @@
 
   </div>
 </div>
-
+</form>
 
 
 
