@@ -6,7 +6,7 @@ import 'rxjs/add/operator/toPromise';
 	selector: 'app-KYC_Details',
 	templateUrl: './KYC_Details.component.html',
 	styleUrls: ['./KYC_Details.component.css'],
-  providers: [KYC_DetailsService]
+  providers: [KYC_DetailsService] 
 })
 export class KYC_DetailsComponent implements OnInit {
 
