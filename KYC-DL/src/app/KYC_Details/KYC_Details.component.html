@@ -1,6 +1,6 @@
 
 
- <form  [formGroup]="kyc_form" (ngSubmit)="send_kyc_request($event)">
+ <form  [formGroup]="kyc_form" (ngSubmit)="send_kyc_request($event)" style="height:600px;overflow-y:auto">
 <div class="card" style="margin-top:35px">
     <div class="card-header">
      <div class ="row">
@@ -34,15 +34,15 @@
                 <div class="row" style="margin-top:5px">
                 <div class="col-sm-10">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio"  formControlName="gender" name="gender" id="inlineRadio1" value="option1">
+                        <input class="form-check-input" type="radio"  formControlName="gender" name="gender" id="inlineRadio1" value="MALE">
                         <label class="form-check-label" for="inlineRadio1">Male</label>
                       </div>
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" formControlName="gender" name="gender" id="inlineRadio2" value="option2">
+                        <input class="form-check-input" type="radio" formControlName="gender" name="gender" id="inlineRadio2" value="FEMALE">
                         <label class="form-check-label" for="inlineRadio2">Female</label>
                       </div>
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" formControlName="gender" name="gender" id="inlineRadio3" value="option3" >
+                        <input class="form-check-input" type="radio" formControlName="gender" name="gender" id="inlineRadio3" value="MALE" >
                         <label class="form-check-label" for="inlineRadio3">Others</label>
                       </div>
                   </div>
@@ -180,8 +180,9 @@
                       <p>upload photo</p>
                      <div class="col-sm-9">
                     
-                        <button class="btn btn-secondary" type="button"> Upload Aadhar Photo<input style="" id="file" type="file" (change)="changeListner($event,'aimg')" accept=".jpg,.png" /></button>&nbsp;&nbsp;
-                        <img class="aimg" style="height:40px;margin:-10px;" />
+                        <button class="btn col-sm-7 btn-outline-info" (click)="showFiles('ad')" type="button"><small style="margin-left:-5px">Choose file</small><input class="ad" style="display:none" id="file" type="file" (change)="changeListner($event,'aimg')" accept=".jpg,.png" /></button>&nbsp;&nbsp;
+                
+                        <img class="aimg" style="height:40px;width:40px" />
                        
                        </div>
                    </div>
@@ -208,8 +209,8 @@
                    <div class="col-sm-6" style="margin-top:10px">
                       <p>upload photo</p>
                      <div class="col-sm-9">
-                        <button class="btn btn-secondary" type="button"> Upload Profile Photo<input style="" id="file" type="file" (change)="changeListner($event,'ppic')" accept=".jpg,.png" /></button>&nbsp;&nbsp;
-                        <img class="ppic" style="height:40px;margin:-10px;" />
+                        <button class="btn col-sm-7 btn-outline-info" (click)="showFiles('pd')" type="button"><small style="margin-left:-5px">Choose file</small><input style="display:none" class="pd" id="file" type="file" (change)="changeListner($event,'ppic')" accept=".jpg,.png" /></button>&nbsp;&nbsp;
+                        <img class="ppic" style="height:40px;width:40px"/>
                        </div>
                    </div>
                   
@@ -227,7 +228,7 @@
 
 <div class="col-sm-4">
 </div>
-  <div class="col-sm-4">
+  <div class="col-sm-4" style="margin-bottom:50px">
       <input class="btn btn-primary  btn-lg col-sm-12" type="submit" value="Submit" style="margin-bottom:30px">
 
   </div>

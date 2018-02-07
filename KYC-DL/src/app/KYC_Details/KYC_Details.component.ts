@@ -11,7 +11,7 @@ import 'rxjs/add/operator/toPromise';
 export class KYC_DetailsComponent implements OnInit {
 
 
-  constructor(private fb: FormBuilder,private element: ElementRef){
+  constructor(private fb: FormBuilder,private element: ElementRef,private kds:KYC_DetailsService){
   }
 
 
@@ -45,24 +45,26 @@ export class KYC_DetailsComponent implements OnInit {
           documents_submitted:this.fb.group({
             $class: "org.acme.kyc.Documents_checklist",
             number:["",Validators.required] ,
-            photocopy: this.apic,
+            photocopy: ["",Validators.required],
             date_Of_issue:["",Validators.required] 
           })
         }),
         passport_documents :this.fb.group({
           $class : "org.acme.kyc.Passport_Documents",
-          document_name : "Passport"  ,
+          document_name : "PASSPORT"  ,
           documents_submitted : this.fb.group({
             $class :  "org.acme.kyc.Documents_checklist",
             number:["",Validators.required] ,
-            photocopy: [this.ppic,Validators.required],
+            photocopy: ["",Validators.required],
             date_Of_issue:["",Validators.required] 
-          })
+          },{updateOn: 'submit'})
         })
       })
     });
   }
-
+showFiles(type){
+  this.element.nativeElement.querySelector('.'+type+'').click();
+}
   changeListner(event,picName) {
     var reader = new FileReader();
     var image = this.element.nativeElement.querySelector('.'+picName+'');
@@ -87,9 +89,11 @@ export class KYC_DetailsComponent implements OnInit {
     
   }
   send_kyc_request(event){
-    this.kyc_form.controls['Documents']['aadhar_documents']['documents_submitted']['photocopy'].setValue(this.apic);
-    this.kyc_form.controls['Documents']['passport_documents'].controls['documents_submitted'].controls['photocopy'].setValue(this.apic);
+    this.kyc_form.patchValue({Documents:{aadhar_documents:{documents_submitted:{photocopy: this.apic}}}})
+    this.kyc_form.patchValue({Documents:{passport_documents:{documents_submitted:{photocopy: this.ppic}}}})
     console.log(this.kyc_form.value);
+    this.kds.send_kyc_request_transaction(this.kyc_form.value);
+
   }
   
   }

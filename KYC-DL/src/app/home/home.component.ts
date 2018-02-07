@@ -13,7 +13,7 @@ import { HomeComponentService } from './home.component.service'
 })
 export class HomeComponent {
 	private headers: Headers;
-	private accessToken = "jVc7d80s11CWNfC4rg1QzXN0pA15T5y7cqanbAWmCFND2ebjqYFnNaH6aFy4gECt";
+	private accessToken = "orK0zjnv50BboAIeLU5nBbKjgQ1kuvLtA1vajwLupxVJaCaDdofCC6RL9DZLSt3l";
 	constructor(private dataService: DataService<any>,private http: Http,public fb: FormBuilder,private route: ActivatedRoute,
         private router: Router,private hs:HomeComponentService){
 		

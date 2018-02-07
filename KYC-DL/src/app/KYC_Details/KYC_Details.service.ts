@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { DataService } from '../data.service';
+import { Http, Response, Headers ,RequestOptions} from '@angular/http';
+import {ActivatedRoute, Router, RouterModule} from '@angular/router';
 import { Observable } from 'rxjs/Observable';
 import { KYC_Details } from '../org.acme.kyc';
 import 'rxjs/Rx';
@@ -7,34 +9,22 @@ import 'rxjs/Rx';
 // Can be injected into a constructor
 @Injectable()
 export class KYC_DetailsService {
-
-	
-		private NAMESPACE: string = 'KYC_Details';
-	
-
-
-
-    constructor(private dataService: DataService<KYC_Details>) {
-    };
-
-    public getAll(): Observable<KYC_Details[]> {
-        return this.dataService.getAll(this.NAMESPACE);
-    }
-
-    public getAsset(id: any): Observable<KYC_Details> {
-      return this.dataService.getSingle(this.NAMESPACE, id);
-    }
-
-    public addAsset(itemToAdd: any): Observable<KYC_Details> {
-      return this.dataService.add(this.NAMESPACE, itemToAdd);
-    }
-
-    public updateAsset(id: any, itemToUpdate: any): Observable<KYC_Details> {
-      return this.dataService.update(this.NAMESPACE, id, itemToUpdate);
-    }
-
-    public deleteAsset(id: any): Observable<KYC_Details> {
-      return this.dataService.delete(this.NAMESPACE, id);
-    }
-
+  private headers: Headers;
+	private accessToken = "orK0zjnv50BboAIeLU5nBbKjgQ1kuvLtA1vajwLupxVJaCaDdofCC6RL9DZLSt3l";
+	constructor(private dataService: DataService<any>,private http: Http){
+		
+        this.headers = new Headers();
+        this.headers.append('Content-Type', 'application/json');
+        this.headers.append('Accept', 'application/json');
+		this.headers.append('X-Access-Token',this.accessToken);
+	}
+  public send_kyc_request_transaction(data){
+    var options = new RequestOptions({headers : this.headers})
+    this.http.post('http://localhost:3000/api/Send_for_KYC_approval',data,options).map(this.extractData).subscribe(res =>{
+      console.log("REsult: ",res);
+    })
+  }
+  private extractData(res: Response): any {
+    return res.json();
+}
 }
