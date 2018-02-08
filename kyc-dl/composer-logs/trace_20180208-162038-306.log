@@ -1,0 +1,1097 @@
+2018-02-07T11:12:54.219Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:12:54.236Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:12:54.238Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:13:10.416Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:13:10.417Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:13:10.417Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:46:03.466Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:46:03.467Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:46:03.467Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:46:25.550Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:46:25.551Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:46:25.552Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:49:10.519Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:49:10.519Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:49:10.519Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:50:45.708Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:50:45.710Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:50:45.710Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:53:36.522Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:53:36.523Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:53:36.523Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:53:43.119Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:53:43.120Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:53:43.120Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:53:44.475Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:53:44.475Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:53:44.476Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:53:45.456Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:53:45.457Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:53:45.457Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:53:46.131Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:53:46.132Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:53:46.132Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:53:46.665Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:53:46.666Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:53:46.666Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:53:47.038Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:53:47.038Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:53:47.038Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:53:47.548Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:53:47.549Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:53:47.549Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:53:48.241Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:53:48.241Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:53:48.241Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:54:19.804Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:54:19.804Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:54:19.805Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:56:52.889Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:56:52.892Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:56:52.893Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:56:56.305Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:56:56.305Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:56:56.305Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:56:56.778Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:56:56.778Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:56:56.779Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:56:57.264Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:56:57.264Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:56:57.264Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:56:57.686Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:56:57.686Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:56:57.687Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:56:58.114Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:56:58.114Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:56:58.115Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:56:58.557Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:56:58.558Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:56:58.558Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T11:58:56.429Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T11:58:56.430Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T11:58:56.436Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity has not been registered: user_1)\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T12:05:26.971Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: The current identity must be activated (ACTIVATION_REQUIRED))
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T12:05:26.976Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity must be activated (ACTIVATION_REQUIRED))","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity must be activated (ACTIVATION_REQUIRED))\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T12:05:26.976Z ERROR   HLFConnection           :ping()                   {"message":"Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity must be activated (ACTIVATION_REQUIRED))","stack":"Error: Error trying to ping. Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: The current identity must be activated (ACTIVATION_REQUIRED))\n    at _checkRuntimeVersions.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:713:34)"}$
+2018-02-07T12:53:10.177Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:10.323Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:10.326Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:10.340Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:10.360Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:10.803Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:10.835Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:11.324Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:11.469Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:11.915Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:12.085Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:12.188Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:12.277Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:12.391Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:12.504Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:12.591Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:12.628Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:12.786Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:12.876Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:12.991Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.137Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.161Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.280Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.283Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.316Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.317Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.333Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.367Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.409Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.437Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.454Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.456Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.480Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.525Z ERROR   HLFConnection           :invokeChainCode()        {"message":"Error trying invoke business network. Error: Peer has rejected transaction '38a3fae80d5fbc9430227c1e61fc02b46fbe036ba325aaaca4fb0aa1b2918c28' with code MVCC_READ_CONFLICT","stack":"Error: Error trying invoke business network. Error: Peer has rejected transaction '38a3fae80d5fbc9430227c1e61fc02b46fbe036ba325aaaca4fb0aa1b2918c28' with code MVCC_READ_CONFLICT\n    at _initializeChannel.then.then.then.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:916:34)\n    at process._tickCallback (internal/process/next_tick.js:109:7)"}$
+2018-02-07T12:53:13.612Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.643Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.667Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.689Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.690Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.707Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T12:53:13.717Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-07T13:05:28.858Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: Object with ID 'user_2@kyc-dl' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T13:05:28.866Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_2@kyc-dl' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_2@kyc-dl' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T13:05:40.563Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T13:05:40.563Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T13:06:20.447Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T13:06:20.447Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T13:31:37.752Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T13:31:37.754Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T13:57:57.656Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T13:57:57.657Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T13:58:42.373Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T13:58:42.374Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T13:58:43.569Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T13:58:43.570Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_2' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T14:04:08.285Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: Object with ID 'user3' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T14:04:08.286Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user3' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user3' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T14:04:27.618Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: Object with ID 'user3@kyc-dl' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T14:04:27.618Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user3@kyc-dl' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user3@kyc-dl' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T14:04:43.203Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: Object with ID 'user4' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T14:04:43.204Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user4' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user4' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-07T14:05:19.368Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: Object with ID 'user_4' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-07T14:05:19.369Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_4' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_4' in collection with ID 'Transaction:org.acme.kyc.Send_for_KYC_approval' does not exist)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$
+2018-02-08T06:39:45.939Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:47.216Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:47.603Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:47.761Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:48.871Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:49.262Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:49.463Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:49.882Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:50.460Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:50.502Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:50.692Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:50.859Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:50.904Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:51.343Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:51.384Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:51.417Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:51.496Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:51.531Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:51.553Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:39:51.603Z ERROR   HLFConnectionManager    :fabric-client()          [EventHub.js]: on.data - Error unmarshalling transaction= TypeError: Cannot read property 'getSerializer' of null
+    at events.forEach (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:479:72)
+    at Array.forEach (native)
+    at HLFConnection.connection.on (/usr/lib/node_modules/composer-rest-server/node_modules/composer-client/lib/businessnetworkconnection.js:478:28)
+    at emitOne (events.js:96:13)
+    at HLFConnection.emit (events.js:188:7)
+    at ChainCodeCBE.ccEvent.eventHubs.(anonymous function).registerChaincodeEvent [as onEvent] (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:234:22)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:810:12
+    at Set.forEach (native)
+    at EventHub._processChainCodeOnEvents (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:808:14)
+    at ClientDuplexStream.<anonymous> (/usr/lib/node_modules/composer-rest-server/node_modules/fabric-client/lib/EventHub.js:311:10)
+    at emitOne (events.js:96:13)
+    at ClientDuplexStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ClientDuplexStream.Readable.push (_stream_readable.js:134:10)
+    at readCallback (/usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:299:14) {}$
+2018-02-08T06:48:08.602Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode error (status: 500, message: Error: Object with ID 'user_4' in collection with ID 'Asset:org.acme.kyc.KYC_Details' does not exist)
+    at /usr/lib/node_modules/composer-rest-server/node_modules/grpc/src/node/src/client.js:554:15 {}$
+2018-02-08T06:48:08.602Z ERROR   HLFConnection           :queryChainCode()         {"message":"Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_4' in collection with ID 'Asset:org.acme.kyc.KYC_Details' does not exist)","stack":"Error: Error trying to query business network. Error: chaincode error (status: 500, message: Error: Object with ID 'user_4' in collection with ID 'Asset:org.acme.kyc.KYC_Details' does not exist)\n    at channel.queryByChaincode.then.catch (/usr/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:809:34)"}$

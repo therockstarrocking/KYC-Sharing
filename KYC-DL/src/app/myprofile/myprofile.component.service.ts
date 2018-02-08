@@ -11,4 +11,8 @@ export class MyProfileService {
     public getUser(){
         return this.ls.getUser();
     }
+
+    public getkycinformation(){
+        return this.ls.get_kyc_deatils();
+    }
 }

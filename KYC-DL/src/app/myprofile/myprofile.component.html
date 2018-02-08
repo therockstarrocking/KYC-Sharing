@@ -71,27 +71,27 @@
         <div class="card-body" *ngIf="userdetails?.kyc_id != undefined;else request">
             <div class="row">
                 <div class="col-sm-6" style="border:.5px solidgrey">
-                   <p>COUNTRY</p>
+                  <p> <b>COUNTRY</b></p>
                   <div class="col-sm-9">
-                      <b>INDIA</b>
+                      {{userKYInformation?.address.nationality}}
                     </div>
                 </div>
                 <div class="col-sm-6" style="border:.5px solidgrey">
-                    <p>CITY</p>
+                 <p><b>CITY</b></p>
                    <div class="col-sm-9">
-                       <b>HYDERABAD</b>
+                        {{userKYInformation?.address.city}}
                      </div>
                  </div>
                  <div class="col-sm-6" style="margin-top:10px">
-                    <p>ADDRESS</p>
+                    <p><b>ADDRESS</b></p>
                    <div class="col-sm-9">
-                       <b>H.NO: 78/87, Madhapur.</b>
+                        {{userKYInformation?.address.Address}}
                      </div>
                  </div>
                  <div class="col-sm-6" style="margin-top:10px">
-                    <p>POSTAL CODE</p>
+                    <p><b>POSTAL CODE</b></p>
                    <div class="col-sm-9">
-                       <b>500080</b>
+                        {{userKYInformation?.address.postal_Code}}
                      </div>
                  </div>
                 
@@ -102,15 +102,15 @@
         <div class="card-body" >
             <div class="row">
                 <div class="col-sm-7" style="border:.5px solidgrey">
-                   <p>Date Of Birth</p>
+                   <b>Date Of Birth</b>
                   <div class="col-sm-9">
-                      <b>02-05-1994</b>
-                    </div>
+                        {{userKYInformation?.birth_details.dateOfBirth}}
+                   </div>
                 </div>
                 <div class="col-sm-5" style="border:.5px solidgrey">
-                    <p>Place Of Birth</p>
+                    <b>Place Of Birth</b>
                    <div class="col-sm-9">
-                       <b>HYDERABAD</b>
+                        {{userKYInformation?.birth_details.birth_place}}
                      </div>
                  </div>
             </div>

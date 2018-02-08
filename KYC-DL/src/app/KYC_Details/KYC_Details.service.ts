@@ -10,7 +10,7 @@ import 'rxjs/Rx';
 @Injectable()
 export class KYC_DetailsService {
   private headers: Headers;
-	private accessToken = "orK0zjnv50BboAIeLU5nBbKjgQ1kuvLtA1vajwLupxVJaCaDdofCC6RL9DZLSt3l";
+	private accessToken = "2AoiIjtLekBbbEv1zTstitTcdrzV14jGXYKfHVUdRKjxlCJ1VTVeVbFjRsScHZwr";
 	constructor(private dataService: DataService<any>,private http: Http){
 		
         this.headers = new Headers();
@@ -23,6 +23,11 @@ export class KYC_DetailsService {
     this.http.post('http://localhost:3000/api/Send_for_KYC_approval',data,options).map(this.extractData).subscribe(res =>{
       console.log("REsult: ",res);
     })
+  }
+
+  public get_kyc_deatils():any{
+    var options = new RequestOptions({headers : this.headers})
+   return this.http.get('http://localhost:3000/api/Send_for_KYC_approval',options).map(this.extractData);
   }
   private extractData(res: Response): any {
     return res.json();

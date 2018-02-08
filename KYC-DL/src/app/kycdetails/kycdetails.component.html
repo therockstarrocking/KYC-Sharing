@@ -25,8 +25,8 @@
                        <div class="col-sm-9">
                           <b>Aadhar number</b>
                              <div class="row" style="margin-top:4px">
-                                 <div class="col-sm-10">
-                                 <b>7894561230885</b>   
+                                 <div class="col-sm-12">
+                                 {{applieddocs?.aadhar_documents.documents_submitted.number}}
                                   </div>
                               </div>
                         </div>
@@ -37,10 +37,10 @@
                   </div>
                   <div class="col-sm-6">
                       
-                      <b>vudathasaiomkar@gmail.com</b>
+                      <b>Issue Date</b>
                       <div class="row" style="margin-top:3px">
                         <div class="col-sm-10">
-                          <b>member since 2010</b> 
+                          {{applieddocs?.aadhar_documents.documents_submitted.date_Of_issue}}
                          </div></div>
                       
                      
@@ -49,41 +49,33 @@
                 </div> 
                 <div class="row" style="margin-top:15px">
                     <div class="col-sm-6">
-                      <b>Aadhar number</b>
+                      <b>Status</b>
                       <div class="row">
-                        <div class="col-sm-10">
-                       <b>  7894561230885</b>
+                        <div class="col-sm-10" [ngStyle]="{ 'color':getRandomColor()}">
+                       {{applieddocs?.aadhar_documents.status}}
                         </div>
                           </div>
                     </div>
                     <div class="col-sm-6">
-                      <b>status</b>
+                      
                      <div class="row" style="margin-top:3px">
                       <div class="col-sm-10">
-                        Approvedclass
+                          <a data-toggle="modal" data-target="#Request" (click)="viewRequest('AADHAR')" >uploaded Documets(click)</a>
                         </div>
                       </div>
                      </div>
                     
                   </div> 
-                  <div class="row" style="margin-top:4px">
-                   <div class="col-sm-10">
-                   <a href="#"> uploaded documents
-                  </a> 
-                   </div>
-                  </div>
-          </div>
-        </div> 
-
-
-  </div>
+                </div>
+             </div> 
+         </div>
 
   <div class="col-sm-6">
       <div class="card">
           <div class="card-header">
            <div class ="row">
             <div class="col-sm-9">
-             <h5>Aadhar Information</h5>
+             <h5>Passport Information</h5>
       
             </div>
             <div class="col-md-3">
@@ -94,18 +86,18 @@
           <div class="card-body">
               <div class="row" style="margin-top:5px">
                   <div class="col-sm-6">
-                    <b>Saiomkar</b>
+                    <b>Passport Number</b>
                     <div class="row" style="margin-top:3px">
                       <div class="col-sm-10">
-                        member since 2010
+                        {{applieddocs?.passport_documents.documents_submitted.number}}
                       </div>
                         </div>
                   </div>
                   <div class="col-sm-6">
-                    <b>vudathasaiomkar@gmail.com</b>
+                    <b>Issue Date</b>
                     <div class="row" style="margin-top:3px">
                     <div class="col-sm-10">
-                        member since 2010
+                        {{applieddocs?.passport_documents.documents_submitted.date_Of_issue}}
                       </div>
                       </div>
                    </div>
@@ -113,34 +105,48 @@
                 </div> 
                 <div class="row" style="margin-top:15px">
                     <div class="col-sm-6">
-                      <b>Saiomkar</b>
+                      <b>Status</b>
                       <div class="row">
-                        <div class="col-sm-10">
-                          member since 2010
+                        <div class="col-sm-10" [ngStyle]="{ 'color':getRandomColorpass()}">
+                            {{applieddocs?.passport_documents.status}}
                         </div>
                           </div>
                     </div>
                     <div class="col-sm-6">
-                      <b>vudathasaiomkar@gmail.com</b>
+                      <b></b>
                       <div class="row" style="margin-top:3px">
                       <div class="col-sm-10">
-                          member since 2010
+                          <a data-toggle="modal" data-target="#Request" (click)="viewRequest('PASSPORT')">uploaded Documets(click)</a>
                         </div>
                       </div>
                      </div>
                      
                   </div> 
-                  <div class="row" style="margin-top:4px">
-                      <div class="col-sm-10">
-                      <a href="#">uploaded documents
-                     </a> 
-                      </div>
-                     </div> 
-          </div>
+            </div>
         </div> 
-
-
   </div>
-    
 </div>
 
+<div class="modal fade" id="Request" tabindex="-1" role="dialog" aria-labelledby="deleteAssetModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="deleteAssetModalLabel">Uploaded Documents</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-sm-6">
+              <img class="col-sm-12" id="modalimage1" style="border-radius:1%;height:200px;">
+            </div>
+            <div class="col-sm-6">
+              <img class="col-sm-12" id="modalimage2" style="border-radius:1%;height:200px;">
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          
+        </div>
+      </div>
+    </div>
+  </div>
