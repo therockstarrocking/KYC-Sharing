@@ -13,7 +13,7 @@ import { HomeComponentService } from './home.component.service'
 })
 export class HomeComponent {
 	private headers: Headers;
-	private accessToken = "KfH3XfhKi8zr8t1PdqHx0ujGMbE9xD2gRCredN6SYFT4gxLqUWJ0Q2otYe4Yz9To";
+	private accessToken = "orK0zjnv50BboAIeLU5nBbKjgQ1kuvLtA1vajwLupxVJaCaDdofCC6RL9DZLSt3l";
 	constructor(private dataService: DataService<any>,private http: Http,public fb: FormBuilder,private route: ActivatedRoute,
         private router: Router,private hs:HomeComponentService){
 		
@@ -46,12 +46,15 @@ export class HomeComponent {
 					this.http.get('http://localhost:3000/api/'+userType[3]+'/'+userData[1]+'',options)
 					.map(this.extractData).subscribe(userDetails=>{
 						console.log("pingData",userDetails);
-						alert(userDetails.name)
+						//alert(userDetails.name)
+						console.log("userdetails :",userDetails)
 						this.hs.setUser(userDetails);
 						if(userType[3] == "User"){
 							this.router.navigate(['user']);
 						}else if (userType[3] == "Aadhar_Admin" || userType[3] == "Passport_Admin"){
 							this.router.navigate(['verifier']);
+						}else if (userType[3] == "KYC_Seeker"){
+							this.router.navigate(['kycSeeker']);
 						}
 					})
 				})

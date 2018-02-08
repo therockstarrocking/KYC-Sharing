@@ -14,23 +14,37 @@ export class RequestsForVerifierComponent implements OnInit {
   requests:any;
   user:any;
   viewDetailsOfUser:any
+  currentRequestId:any;
   constructor(private rfvs:RequestsForVerificationService,public fb: FormBuilder,private element: ElementRef){ }
 
   public myForm = this.fb.group({
 		userCard:["",Validators.required]
-	});
+  });
+  public updateStatusform = this.fb.group({
+    status: ["",Validators.required],
+    remarks: ["",Validators.required]
+  })
   ngOnInit() {
     this.getAllRequests();
+    this.user = this.rfvs.getUser()
   }
   
   getAllRequests(){
-  
+  this.requests = [];
     this.rfvs.getAllRequests().subscribe(res=>{
-     this.requests = res;
-      
+      for(let i=0;i<res.length;i++){
+        if(res[i].status != "APPROVED"){
+          this.requests.push(res[i])
+        }
+      } 
     })
   }
   viewRequest(index){
+    if(this.user.$class == "org.acme.kyc.Passport_Admin"){
+      this.currentRequestId = "resource:org.acme.kyc.Passport_verifications#"+this.requests[index].id+""  
+    }else{
+      this.currentRequestId = "resource:org.acme.kyc.Aadhar_verifications#"+this.requests[index].id+""
+    }
     this.viewDetailsOfUser = null;
     var fimage = this.element.nativeElement.querySelector('.faimg');
     var bimage = this.element.nativeElement.querySelector('.baimg');
@@ -58,9 +72,25 @@ export class RequestsForVerifierComponent implements OnInit {
           console.log("no kyc_id found")
         }
     });
-    
-    //this.openDialog()
-    //alert(index);
+  }
+  sendUpdateStatus(event){
+    /*if(this.updateStatusform.controls['status'].value != "APPROVED" && this.updateStatusform.controls['remarks'].value ==""){
+      alert("Please specify your REMARKS");
+      return;
+    }else{*/
+      var updateForm = {};
+      //this.updateStatusform.controls['aadhar_verifications_ID'].setValue(this.currentRequestId);
+      if(this.user.$class == "org.acme.kyc.Passport_Admin"){
+        updateForm = {'passport_verifications_ID':this.currentRequestId,'status':this.updateStatusform.controls['status'].value,'remarks':this.updateStatusform.controls['remarks'].value}
+      }
+      else{
+        updateForm = {'aadhar_verifications_ID':this.currentRequestId,'status':this.updateStatusform.controls['status'].value,'remarks':this.updateStatusform.controls['remarks'].value}
+      }
+      console.log("form values:",updateForm)
+      this.rfvs.updateAadharStatus(updateForm).subscribe(res =>{
+        console.log("Response: ",res);
+      })
+    //}
   }
 
 }

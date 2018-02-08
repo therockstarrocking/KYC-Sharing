@@ -1,4 +1,4 @@
-<div >
+<div *ngIf="requests?.length>0">
 <div class="card" >
   <div class="card-header" style="padding:1.5rem 1.25rem;font-style:bold">
     <div class="row">
@@ -63,26 +63,26 @@
               <div class="col-sm-6 ub"> Address </div><div class="col-sm-6  ud">: {{viewDetailsOfUser?.KYC_Information.address.Address}}</div>
             </div>
             <div class="col-sm-1"></div>
-            <div class="col-sm-4" style="border-left:2px solidgrey;background-color: #8080800a;padding: 30px 4px;border-radius: 7px;box-shadow: 1px 1px 1px 1px;">
+            <div [formGroup]="updateStatusform" (ngSubmit)="sendUpdateStatus($event)" class="col-sm-4" style="border-left:2px solidgrey;background-color: #8080800a;padding: 30px 4px;border-radius: 7px;box-shadow: 1px 1px 1px 1px;">
               <div class="col-sm-12">
                 <label>Select Response</label>
-                <select class="form-control" style="height:37px;width: 180px;"> 
-                  <option>PENDING</option>
-                  <option>UNDER_REVIEW</option>
-                  <option>DENY</option>
-                  <option>APPROVED</option>
+                <select class="form-control" style="height:37px;width: 180px;" formControlName="status"> 
+                  <option  value="PENDING">PENDING</option>
+                  <option  value="UNDER_REVIEW">UNDER REVIEW</option>
+                  <option  value="DENIED">DENY</option>
+                  <option  value="APPROVED">APPROVED</option>
                 </select>
               </div><br><br><br><div class="col-sm-12" style="height:50px"></div>
               <div class="col-sm-12">
                <h5>REMARKS <span style="color:red">* (if any)</span> </h5>
               </div><br>
               <div class="col-sm-12">
-                <textarea style="min-height:100px;max-height:150px;" placeholder="Mandatory for DENY response" class="form-control"></textarea>
+                <textarea formControlName="remarks" style="min-height:100px;max-height:150px;" placeholder="Mandatory for DENY response" class="form-control"></textarea>
               </div>
               <div class="col-sm-12" style="height:50px"></div>
               <div class="col-sm-12 row">
                   <div class="col-sm-6">
-                     <button class="btn btn-outline-primary">SUBMIT</button>
+                     <input class="btn btn-outline-primary" type="submit" value="Submit" (click)="sendUpdateStatus('f')" name="SUBMIT">
                   </div>
                   <div class="col-sm-6">
                       <button class="btn btn-outline-danger" data-dismiss="modal">CANCEL</button>
@@ -95,5 +95,10 @@
           
         </div>
       </div>
+    </div>
+  </div>
+  <div *ngIf="requests?.length <= 0">
+    <div class="card card-title">
+      <h3> No Requests Found</h3>
     </div>
   </div>

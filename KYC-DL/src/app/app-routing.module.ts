@@ -42,7 +42,8 @@ const routes: Routes = [
 	
 	{path:'kycSeeker',component:KycComponent,children:[
 		{path:'profile',component:ProfileComponent},
-		{path:'my-customers',component:MyCustomersComponent}
+		{path:'my-customers',component:MyCustomersComponent},
+		{path:'',redirectTo:'profile', pathMatch:'full'}
 	]},
 	{path: '**', redirectTo:'home'}
 
