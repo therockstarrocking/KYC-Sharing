@@ -14,7 +14,8 @@ import { HomeComponent } from './home/home.component';
 //import { DialogDataExampleDialog } from './requests-for-verifier/dialog-data-example'
 // import { TransactionComponent } from './Transaction/Transaction.component'
 
-
+import {ProfileComponent} from './profile/profile.component';
+import {MyCustomersComponent} from './my-customers/my-customers.component';
 import { Kyc_Seekers_RequestsComponent } from './Kyc_Seekers_Requests/Kyc_Seekers_Requests.component';
 import { DocumentsVerifierComponent } from './documents-verifier/documents-verifier.component';
 import { VerifierProfileComponent } from './verifier-profile/verifier-profile.component';
@@ -24,8 +25,10 @@ import { KycdetailsComponent } from './kycdetails/kycdetails.component'
 import {KycsharedComponent} from './kycshared/kycshared.component';
 import {MyprofileComponent} from './myprofile/myprofile.component';
 import {UserComponent} from './user/user.component';
-import {DashboardComponent} from './dashboard/dashboard.component'
-import {KycapprovalComponent} from './kycapproval/kycapproval.component'
+import {DashboardComponent} from './dashboard/dashboard.component';
+import {KycapprovalComponent} from './kycapproval/kycapproval.component';
+import {KycComponent} from './kyc/kyc.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,6 +49,9 @@ import {KycapprovalComponent} from './kycapproval/kycapproval.component'
     KycsharedComponent,
     KycdetailsComponent,
     KYC_DetailsComponent,
+    KycComponent,
+    MyCustomersComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
