@@ -2,8 +2,9 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 // import { TransactionComponent } from './Transaction/Transaction.component'
 import { HomeComponent } from './home/home.component';
-
-
+import {ProfileComponent} from './profile/profile.component';
+import{MyCustomersComponent} from './my-customers/my-customers.component'
+import {KycComponent} from './kyc/kyc.component';
 import { KYC_DetailsComponent } from './KYC_Details/KYC_Details.component';
 import { KycdetailsComponent } from './kycdetails/kycdetails.component'
 import {KycsharedComponent} from './kycshared/kycshared.component';
@@ -39,6 +40,11 @@ const routes: Routes = [
 		{ path:'',redirectTo:'profile', pathMatch:'full'}
 	]},
 	
+	{path:'kycSeeker',component:KycComponent,children:[
+		{path:'profile',component:ProfileComponent},
+		{path:'my-customers',component:MyCustomersComponent},
+		{path:'',redirectTo:'profile', pathMatch:'full'}
+	]},
 	{path: '**', redirectTo:'home'}
 
 ];

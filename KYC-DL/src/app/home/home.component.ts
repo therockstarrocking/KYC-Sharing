@@ -46,12 +46,15 @@ export class HomeComponent {
 					this.http.get('http://localhost:3000/api/'+userType[3]+'/'+userData[1]+'',options)
 					.map(this.extractData).subscribe(userDetails=>{
 						console.log("pingData",userDetails);
-						alert(userDetails.name)
+						//alert(userDetails.name)
+						console.log("userdetails :",userDetails)
 						this.hs.setUser(userDetails);
 						if(userType[3] == "User"){
 							this.router.navigate(['user']);
 						}else if (userType[3] == "Aadhar_Admin" || userType[3] == "Passport_Admin"){
 							this.router.navigate(['verifier']);
+						}else if (userType[3] == "KYC_Seeker"){
+							this.router.navigate(['kycSeeker']);
 						}
 					})
 				})

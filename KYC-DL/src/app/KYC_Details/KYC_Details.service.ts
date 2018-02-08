@@ -31,5 +31,5 @@ export class KYC_DetailsService {
   }
   private extractData(res: Response): any {
     return res.json();
-}
+  }
 }

@@ -15,7 +15,7 @@ body {
   text-align: center;
   font-weight: 300;
   color: white;
-  background-color: #0c0a1e;
+  /*background-color: #0c0a1e;
    -webkit-animation: op 3s; /* Safari and Chrome */
   -moz-animation: op 3s; /* Firefox */
   -ms-animation: op 3s; /* Internet Explorer */
@@ -24,11 +24,11 @@ body {
 }
 
 .bg {  
-  -webkit-animation: bg-fadein 20s; /* Safari and Chrome */
+  -webkit-animation: bg-fadein 5s; /* Safari and Chrome */
   -moz-animation: bg-fadein 20s; /* Firefox */
   -ms-animation: bg-fadein 20s; /* Internet Explorer */
   -o-animation: bg-fadein 20s; /* Opera */
-  animation: bg-fadein 20s;
+  animation: bg-fadein 30s;
   opacity: 0.5;
   content: "";
   background: url(https://files.dtnd.co/?auto=1&source=files/admin/codepen/login-page.jpg);  

@@ -1,0 +1,96 @@
+<!--<div class="card-deck">
+    <div class="card">
+      <img class="card-img-top"  alt="Card image cap">
+      
+      
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="..." alt="Card image cap">
+      
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="../../assets/passport.jpg" style="width:30%" alt="Card image cap">
+      <div style="border-left: 1px solid
+      grey;
+      height: 200px;">
+      <div class="card-body">
+<div class="row">
+  <ul class="nav flex-column">
+      <li class="nav-item">
+          <a class="nav-link">
+        
+                Name : <span></span>Sai Omkar              </a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link">
+              EmailId : <span></span> saiomkar601@gmail.com             </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">
+          
+         Phone no : <span></span>886887154
+        </a>
+      </li>
+  </ul>
+</div>
+
+
+        
+        </div> 
+    </div>
+  </div>-->
+ 
+  <div class="row" style="margin-top:30px;margin-left:20px;margin-right:15px;max-height:450px;overflow-y:auto;overflow-x:hidden">
+     <div *ngFor="let use of user" class="col-sm-4" style="padding: 10px">
+       
+       <div class="row">
+          <div class="card col-sm-4">
+              <img style="height: 100%;
+              width: 135%;
+              margin-left: -15px;" src="{{use.image}}">
+            </div>
+            <div class="card-body col-sm-6">
+              <div>{{use.email}}</div>
+              <div>{{use.id}}</div>
+              <div><button class="btn btn-outline-primary">View kyc info </button></div>
+            </div>
+       </div>
+      </div>
+
+     <!--<div class="row col-sm-4" style="padding: 10px">
+        <div class="card col-sm-4">
+          <img style="height: 100%;
+          width: 135%;
+          margin-left: -15px;" src="http://www.personalbrandingblog.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640-300x300.png">
+        </div>
+        <div class="card-body col-sm-6">
+          <div>jaswanthgorripati2013@gmail.com</div>
+          <div>Jaswanth Naidu Gorripati</div>
+          <div><button class="btn btn-outline-primary">View kyc info </button></div>
+        </div>
+       </div>
+       <div class="row col-sm-4" style="padding: 10px;">
+          <div class="card col-sm-4">
+            <img style="height: 100%;
+            width: 135%;
+            margin-left: -15px;" src="http://www.personalbrandingblog.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640-300x300.png">
+          </div>
+          <div class="card-body col-sm-6">
+            <div>jaswanthgorripati2013@gmail.com</div>
+            <div>Jaswanth Naidu Gorripati</div>
+            <div><button class="btn btn-outline-primary">View kyc info </button></div>
+          </div>
+         </div>
+         <div class="row col-sm-4" style="padding: 10px">
+            <div class="card col-sm-4">
+              <img style="height: 100%;
+              width: 135%;
+              margin-left: -15px;" src="http://www.personalbrandingblog.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640-300x300.png">
+            </div>
+            <div class="card-body col-sm-6" style="width:300px">
+              <div>jaswanthgorripati2013@gmail.com</div>
+              <div>Jaswanth Naidu Gorripati</div>
+              <div><button class="btn btn-outline-primary">View kyc info </button></div>
+            </div>
+           </div>-->
+  </div>

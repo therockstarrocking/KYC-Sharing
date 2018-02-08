@@ -22,25 +22,25 @@
     <div class="card card-body">
         <div class="row">
             <div class="col-sm-4">
-              <b>vudathsaiomkar{{userdetails.name}}</b>
+              <b>{{user?.name}}</b>
               <div class="row">
                 <div class="col-sm-10">
-                  <i>Network ID :</i> {{userdetails.id}}
+                  <i>Network ID :</i> {{user?.id}}
                 </div>
                   </div>
             </div>
             <div class="col-sm-4">
-              <b>cdfgvhnjkl{{userdetails.emailId}}</b>
+              <b>{{user?.emailId}}</b>
              </div>
              <div class="col-sm-4">
-                <b>dfghjkl;kljhgfdsfghj{{userdetails.phone_number}}</b>
+               
              </div>
           </div> 
     </div>
   </div>
 </div>
-<h4 style="margin-top:30px">Approved Requests</h4>
-<div style="margin-top:2px;margin-right:10px;">
+<h4 style="margin-top:30px" *ngIf="requests?.length>0">Approved Requests</h4>
+<div style="margin-top:2px;margin-right:10px;" *ngIf="requests?.length>0">
     <div class="card"  >
       <div class="card-header" style="padding:1.5rem 1.25rem;font-style:bold;">
         <div class="row">
@@ -67,16 +67,16 @@
         <div class="card-body">
           <div class="row">
             <div class="col-sm-3">{{req.id}}</div>
-            <div class="col-sm-2">{{req.userId}}</div>
+            <div class="col-sm-3">{{req.userId}}</div>
             <div class="col-sm-2">{{req.documents_submitted.number}}</div>
             <div class="col-sm-2">{{req.documents_submitted.date_Of_issue}}</div>
-            <div class="col-sm-2">{{req.status}}</div>
-            <div class="col-sm-1"><button class="btn btn-outline-info" data-toggle="modal" data-target="#Request" (click)="viewRequest(i)">View</button></div>
+            <div class="col-sm-2" style="color:green">{{req.status}}</div>
+            <!--<div class="col-sm-1"><button class="btn btn-outline-info" data-toggle="modal" data-target="#Request" (click)="viewRequest(i)">View</button></div>-->
           </div>
         </div>
       </div>
     </div>
-    <div class="modal fade" id="Request" tabindex="-1" role="dialog" aria-labelledby="deleteAssetModalLabel">
+    <!--<div class="modal fade" id="Request" tabindex="-1" role="dialog" aria-labelledby="deleteAssetModalLabel">
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -138,6 +138,6 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
     </div>
     
