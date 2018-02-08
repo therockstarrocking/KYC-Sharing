@@ -44,23 +44,23 @@
         <div class="modal-body">
           <div class="col-sm-5 row">
             <div class="col-sm-12">
-              <img class="col-sm-12" src="https://www.aadharcard.net/wp-content/uploads/2017/05/aadhar-card-photo.jpg" style="border-radius:1%;height:200px;">
+              <img class="col-sm-12 faimg"  style="border-radius:1%;height:200px;">
             </div>
             <div class="col-sm-12">
-              <img class="col-sm-12" src="https://www.aadharcard.net/wp-content/uploads/2017/05/aadhar-card-photo.jpg" style="border-radius:1%;height:200px;">
+              <img class="col-sm-12 baimg"  style="border-radius:1%;height:200px;">
             </div>
           </div>
           <div class="row col-sm-7">
             <div class="row col-sm-7">
-              <div class="col-sm-6 ub"> USER ID </div> <div class="col-sm-6 ud">: {{user.kyc_of_userid}}</div>
-              <div class="col-sm-6 ub"> NAME </div><div class="col-sm-6  ud">: {{user.KYC_Information.name}}</div>
-              <div class="col-sm-6 ub"> GENDER</div><div class="col-sm-6  ud">: {{user.KYC_Information.gender}}</div>
-              <div class="col-sm-6 ub"> BIRTHDAY</div><div class="col-sm-6  ud">: {{user.KYC_Information.birth_details.dateOfBirth}}</div>
-              <div class="col-sm-6 ub"> BRITH PLACE</div><div class="col-sm-6  ud">: {{user.KYC_Information.birth_details.birth_place}}</div><br>
-              <div class="col-sm-6 ub"> NATIONALITY </div><div class="col-sm-6  ud">: {{user.KYC_Information.address.nationality}}</div>
-              <div class="col-sm-6 ub"> CITY </div><div class="col-sm-6  ud">: {{user.KYC_Information.address.city}}</div>
-              <div class="col-sm-6 ub"> POSTAL CODE </div><div class="col-sm-6  ud">: {{user.KYC_Information.address.postal_Code}}</div>
-              <div class="col-sm-6 ub"> Address </div><div class="col-sm-6  ud">: {{user.KYC_Information.address.Address}}</div>
+              <div class="col-sm-6 ub"> USER ID </div> <div class="col-sm-6 ud">: {{viewDetailsOfUser?.kyc_of_userid}}</div>
+              <div class="col-sm-6 ub"> NAME </div><div class="col-sm-6  ud">: {{viewDetailsOfUser?.KYC_Information.name}}</div>
+              <div class="col-sm-6 ub"> GENDER</div><div class="col-sm-6  ud">: {{viewDetailsOfUser?.KYC_Information.gender}}</div>
+              <div class="col-sm-6 ub"> BIRTHDAY</div><div class="col-sm-6  ud">: {{viewDetailsOfUser?.KYC_Information.birth_details.dateOfBirth}}</div>
+              <div class="col-sm-6 ub"> BRITH PLACE</div><div class="col-sm-6  ud">: {{viewDetailsOfUser?.KYC_Information.birth_details.birth_place}}</div><br>
+              <div class="col-sm-6 ub"> NATIONALITY </div><div class="col-sm-6  ud">: {{viewDetailsOfUser?.KYC_Information.address.nationality}}</div>
+              <div class="col-sm-6 ub"> CITY </div><div class="col-sm-6  ud">: {{viewDetailsOfUser?.KYC_Information.address.city}}</div>
+              <div class="col-sm-6 ub"> POSTAL CODE </div><div class="col-sm-6  ud">: {{viewDetailsOfUser?.KYC_Information.address.postal_Code}}</div>
+              <div class="col-sm-6 ub"> Address </div><div class="col-sm-6  ud">: {{viewDetailsOfUser?.KYC_Information.address.Address}}</div>
             </div>
             <div class="col-sm-1"></div>
             <div class="col-sm-4" style="border-left:2px solidgrey;background-color: #8080800a;padding: 30px 4px;border-radius: 7px;box-shadow: 1px 1px 1px 1px;">
