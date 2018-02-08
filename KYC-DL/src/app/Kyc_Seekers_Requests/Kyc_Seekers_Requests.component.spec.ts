@@ -37,3 +37,8 @@ providers: [Kyc_Seekers_RequestsService,DataService,Configuration]
     expect(component).toBeTruthy();
   });
 });
+
+
+/*
+
+export COMPOSER_PROVIDERS={"github":{"provider":"github","module":"passport-github","clientID":"6a351388ee9f1be05300","clientSecret":"176f8c8ba211d20547862fe9dcbf5be42be40493","authPath":"/auth/github","callbackURL":"/auth/github/callback","successRedirect":"/","failureRedirect":"/"}}*/

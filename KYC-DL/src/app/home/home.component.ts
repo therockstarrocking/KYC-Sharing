@@ -48,7 +48,11 @@ export class HomeComponent {
 						console.log("pingData",userDetails);
 						alert(userDetails.name)
 						this.hs.setUser(userDetails);
-						this.router.navigate(['user']);
+						if(userType[3] == "User"){
+							this.router.navigate(['user']);
+						}else if (userType[3] == "Aadhar_Admin" || userType[3] == "Passport_Admin"){
+							this.router.navigate(['verifier']);
+						}
 					})
 				})
 			}
