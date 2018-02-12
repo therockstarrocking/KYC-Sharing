@@ -1,30 +1,30 @@
 import { Component, OnInit } from '@angular/core';
+import {KycsharingService} from './kycsharing.sevices.component';
+
 
 @Component({
   selector: 'app-kycshared',
   templateUrl: './kycshared.component.html',
-  styleUrls: ['./kycshared.component.css']
+  styleUrls: ['./kycshared.component.css'],
+  providers:[KycsharingService]
 })
 export class KycsharedComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private kycshare:KycsharingService) { }
+  public  shared;
+  sharingWith:any;
   ngOnInit() {
+    this.sharingWith = [];
+    this.kycshare.getsharingasset().subscribe(res=>{ 
+      this.shared=res[0];
+      var userData = this.shared.sharingWithIDs;
+      for(let i=0;i<=userData.length;i++){
+          var userid =userData[i].split('#');
+          this.kycshare.getKycseeker(userid[1]).subscribe(res =>{
+            this.sharingWith.push(res);
+          })
+      }
+    }); 
   }
-
-  array=[{id:'1',orgnationname:'archents',seekername:'sai',alloweddate:'12-45-8777'},
-  {id:'2',orgnationname:'infosy',seekername:'omk',alloweddate:'12-45-8777'},
-  {id:'3',orgnationname:'archents',seekername:'dea',alloweddate:'12-45-8777'},
-  {id:'4',orgnationname:'archents',seekername:'ghyt',alloweddate:'12-45-8777'},
-  {id:'5',orgnationname:'archents',seekername:'jasw',alloweddate:'12-45-8777'},
-  {id:'2',orgnationname:'infosy',seekername:'omk',alloweddate:'12-45-8777'},
-  {id:'3',orgnationname:'archents',seekername:'dea',alloweddate:'12-45-8777'},
-  {id:'4',orgnationname:'archents',seekername:'ghyt',alloweddate:'12-45-8777'},
-  {id:'5',orgnationname:'archents',seekername:'jasw',alloweddate:'12-45-8777'},
-  {id:'2',orgnationname:'infosy',seekername:'omk',alloweddate:'12-45-8777'},
-  {id:'3',orgnationname:'archents',seekername:'dea',alloweddate:'12-45-8777'},
-  {id:'4',orgnationname:'archents',seekername:'ghyt',alloweddate:'12-45-8777'},
-  {id:'5',orgnationname:'archents',seekername:'jasw',alloweddate:'12-45-8777'},
-]
 
 }

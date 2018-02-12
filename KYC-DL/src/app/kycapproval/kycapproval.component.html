@@ -11,7 +11,7 @@
         <b>Adminname</b>
       </div>
       <div class="col-md-2">
-          <b>Issuedate</b>  
+          <b>Email</b>  
       </div>
       <div class="col-md-2">
         <b>Actions</b>  
@@ -19,23 +19,23 @@
    </div>
  </div>
  <div style="max-height:420px;overflow-y:auto;overflow-x:hidden">
-  <div class="card-body" *ngFor="let array of array" style="margin-top:1px;border-bottom:1px solid #dedddd;">
+  <div class="card-body" *ngFor="let array of requests;let i=index" style="margin-top:1px;border-bottom:1px solid #dedddd;">
       <div class="row">
          <div class="col-sm-3">
            {{array.id}}
          </div>
         <div class="col-sm-3">
-          {{array.orgnationname}}
+          {{array.kycSeekerDetails.organisation}}
          </div>
          <div class="col-sm-2">
-           {{array.seekername}}
+           {{array.kycSeekerDetails.name}}
           </div>
          <div class="col-sm-2">
-           {{array.alloweddate}}
+           {{array.kycSeekerDetails.emailId}}
           </div>
           <div class="col-sm-2 row">
-              <button class="col-sm-5 btn btn-outline-primary btn-sm">Approve</button>
-              <button class="col-sm-5 btn btn-outline-danger btn-sm">DENY</button>
+              <button class="col-sm-5 btn btn-outline-primary btn-sm" (click)="response('APPROVED',i)">Approve</button>
+              <button class="col-sm-5 btn btn-outline-danger btn-sm" (click)="response('DENIED',i)">DENY</button>
            </div>
         </div> 
   </div>

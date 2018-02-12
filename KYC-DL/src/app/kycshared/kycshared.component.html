@@ -11,23 +11,23 @@
           <b>adminname</b>
         </div>
         <div class="col-md-3">
-            <b>issuedate</b>  
+            <b>Location</b>  
         </div>
      </div>
    </div>
-    <div class="card-body" *ngFor="let array of array" style="margin-top:1px;border-bottom:1px solid #dedddd">
+    <div class="card-body" *ngFor="let array of sharingWith" style="margin-top:1px;border-bottom:1px solid #dedddd">
         <div class="row">
            <div class="col-sm-3">
              {{array.id}}
            </div>
           <div class="col-sm-3">
-            {{array.orgnationname}}
+            {{array.organisation}}
            </div>
            <div class="col-sm-3">
-             {{array.seekername}}
+             {{array.name}}
             </div>
            <div class="col-sm-3">
-             {{array.alloweddate}}
+             {{array.location}}
             </div>
           </div> 
     </div>
