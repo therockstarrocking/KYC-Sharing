@@ -16,7 +16,7 @@
                         <div class="btn-group mr-2">
                           <button class="btn btn-sm btn-outline-secondary" [routerLink]="['profile']" style="margin-left: 705px;">Profile</button>
                           <button class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#myModal">Ask KYC Details</button>
-                          <button class="btn btn-sm btn-outline-secondary" [routerLink]="['']">Pending Requests</button>
+                          <button class="btn btn-sm btn-outline-secondary" [routerLink]="['pendingreq']">Pending Requests</button>
                           <button class="btn btn-sm btn-outline-secondary" [routerLink]="['my-customers']">My Customers</button>
                         </div>
                         <div class="container">
@@ -29,7 +29,7 @@
                               <div class="modal-dialog">
                               
                                 <!-- Modal content-->
-                                <div class="modal-content">
+                                <div class="modal-content"  [formGroup]="askKycForm" (ngSubmit)="requestKyc($event)">
                                   <div class="modal-header">
                                     
                                     <h4 class="modal-title" style="margin-right:250px">Request KYC Details</h4>
@@ -38,12 +38,12 @@
                                   <div class="modal-body">
                                       <div class="form-group text-left">
                                           <label for="kyc_id">User_id</label>       
-                                            <input [ngModel]="kyc_id"formControlName="kyc_id" type="text" class="form-control">
+                                            <input formControlName="userId" type="text" class="form-control">
                                         </div>
                                   </div>
                                   <div class="modal-footer">
-                                      <button type="submit" class="btn btn-success" data-dismiss="modal">Request</button>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      <button type="submit" class="btn btn-success" (click)="requestKyc(e)">Request</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal" class="cls">Close</button>
                                   </div>
                                 </div>
                                 

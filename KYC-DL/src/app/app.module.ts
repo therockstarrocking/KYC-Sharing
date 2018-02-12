@@ -28,6 +28,7 @@ import {UserComponent} from './user/user.component';
 import {DashboardComponent} from './dashboard/dashboard.component';
 import {KycapprovalComponent} from './kycapproval/kycapproval.component';
 import {KycComponent} from './kyc/kyc.component';
+import { KycseekerPendingRequestsComponent } from './kycseeker-pending-requests/kycseeker-pending-requests.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import {KycComponent} from './kyc/kyc.component';
     KYC_DetailsComponent,
     KycComponent,
     MyCustomersComponent,
-    ProfileComponent
+    ProfileComponent,
+    KycseekerPendingRequestsComponent
   ],
   imports: [
     BrowserModule,

@@ -31,7 +31,7 @@ body {
   animation: bg-fadein 30s;
   opacity: 0.5;
   content: "";
-  background: url(https://files.dtnd.co/?auto=1&source=files/admin/codepen/login-page.jpg);  
+  /*background: url('../../assets/download.jpeg');*/
   top: 0;
   left: 0;
   bottom: 0;

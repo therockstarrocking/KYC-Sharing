@@ -13,6 +13,7 @@ import {UserComponent} from './user/user.component';
 import {DashboardComponent} from './dashboard/dashboard.component'
 import {KycapprovalComponent} from './kycapproval/kycapproval.component'
 import { Kyc_Seekers_RequestsComponent } from './Kyc_Seekers_Requests/Kyc_Seekers_Requests.component';
+import { KycseekerPendingRequestsComponent } from './kycseeker-pending-requests/kycseeker-pending-requests.component'
 import { DocumentsVerifierComponent } from './documents-verifier/documents-verifier.component';
 import { VerifierProfileComponent } from './verifier-profile/verifier-profile.component';
 import { RequestsForVerifierComponent } from './requests-for-verifier/requests-for-verifier.component';
@@ -43,6 +44,7 @@ const routes: Routes = [
 	{path:'kycSeeker',component:KycComponent,children:[
 		{path:'profile',component:ProfileComponent},
 		{path:'my-customers',component:MyCustomersComponent},
+		{path:'pendingreq',component:KycseekerPendingRequestsComponent},
 		{path:'',redirectTo:'profile', pathMatch:'full'}
 	]},
 	{path: '**', redirectTo:'home'}

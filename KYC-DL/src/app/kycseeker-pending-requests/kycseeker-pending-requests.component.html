@@ -1,0 +1,28 @@
+<div>
+    <div class="card" >
+      <div class="card-header" style="padding:1.5rem 1.25rem;font-style:bold">
+        <div class="row">
+          <div class="col-sm-4">
+            Request Id
+          </div>
+          <div class="col-sm-4">
+            User ID 
+          </div>
+          <div class="col-sm-4">
+            Status
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="card" style="margin-top:2px" *ngFor="let req of pendingRequests;let i=index">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-4">{{req.id}}</div>
+            <div class="col-sm-4">{{req.userid}}</div>
+            <div class="col-sm-4">{{req.status}}</div>
+            <!--<div class="col-sm-1"><button class="btn btn-outline-info" data-toggle="modal" data-target="#Request" (click)="viewRequest(i)">View</button></div>-->
+          </div>
+        </div>
+      </div>
+    </div>
