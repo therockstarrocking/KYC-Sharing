@@ -17,13 +17,14 @@ import { KycseekerPendingRequestsComponent } from './kycseeker-pending-requests/
 import { DocumentsVerifierComponent } from './documents-verifier/documents-verifier.component';
 import { VerifierProfileComponent } from './verifier-profile/verifier-profile.component';
 import { RequestsForVerifierComponent } from './requests-for-verifier/requests-for-verifier.component';
+import { AuthGuardService } from './authgaurd.service';
 const routes: Routes = [
     // { path: 'transaction', component: TransactionComponent },
     {path: 'home', component: HomeComponent},
 	
-	{path:'user' ,component:UserComponent,children:[
-		{path:'',pathMatch:'full',redirectTo:'profile'},
-		{path:'profile',component:DashboardComponent,
+	{path:'user' ,component:UserComponent,canActivate: [AuthGuardService],children:[
+		{path:'',pathMatch:'full',redirectTo:'profile',canActivate: [AuthGuardService]},
+		{path:'profile',component:DashboardComponent,canActivate: [AuthGuardService],
 			children:[
 			  {path: 'mykyc', component: KycdetailsComponent},
 			  {path: 'sharingWith', component: KycsharedComponent},
@@ -35,13 +36,13 @@ const routes: Routes = [
 			
 		  ]},		
 	
-	{ path: 'verifier', component: DocumentsVerifierComponent,children:[
+	{ path: 'verifier', component: DocumentsVerifierComponent,canActivate: [AuthGuardService],children:[
 		{path:'profile',component:VerifierProfileComponent},
 		{ path:'requests', component: RequestsForVerifierComponent},
 		{ path:'',redirectTo:'profile', pathMatch:'full'}
 	]},
 	
-	{path:'kycSeeker',component:KycComponent,children:[
+	{path:'kycSeeker',component:KycComponent,canActivate: [AuthGuardService],children:[
 		{path:'profile',component:ProfileComponent},
 		{path:'my-customers',component:MyCustomersComponent},
 		{path:'pendingreq',component:KycseekerPendingRequestsComponent},

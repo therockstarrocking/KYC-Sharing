@@ -29,6 +29,7 @@ import {DashboardComponent} from './dashboard/dashboard.component';
 import {KycapprovalComponent} from './kycapproval/kycapproval.component';
 import {KycComponent} from './kyc/kyc.component';
 import { KycseekerPendingRequestsComponent } from './kycseeker-pending-requests/kycseeker-pending-requests.component';
+import { AuthGuardService } from './authgaurd.service';
 
 @NgModule({
   declarations: [
@@ -67,7 +68,8 @@ import { KycseekerPendingRequestsComponent } from './kycseeker-pending-requests/
   providers: [
     Configuration,
     DataService,
-    LoginUserInfoService
+    LoginUserInfoService,
+    AuthGuardService
   ],
   bootstrap: [AppComponent]
 })

@@ -24,7 +24,13 @@ export class LoginUserInfoService {
     public getUser(){
           return this.userDetails;
     }
-
+    public isLoggedIn(){
+        if(this.userDetails){
+            return true;
+        }else{
+            return false;
+        }
+    }
     public get_kyc_deatils():any{
         var options = new RequestOptions({headers : this.headers})
         var kycid=  this.userDetails.kyc_id.split('#');
