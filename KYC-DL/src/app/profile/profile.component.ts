@@ -8,11 +8,11 @@ import { kycseekerProflieService } from './profile.component.service'
   providers:[kycseekerProflieService]
 })
 export class ProfileComponent implements OnInit {
-
+  kycSeeker:any;
   constructor(private kps:kycseekerProflieService) { }
 
   ngOnInit() {
-    
+      this.kycSeeker = this.kps.getProfileDetails()
   }
 
 }

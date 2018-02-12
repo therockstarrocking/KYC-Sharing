@@ -10,26 +10,22 @@
    </div>
     <div class="card-body">
         <div class="row">
-            <div class="col-sm-4">
-              <b>Saiomkar</b>
+            <div class="col-sm-6">
+              <b>{{kycSeeker.name}}</b>
               <div class="row">
                 <div class="col-sm-10">
-                  member since 2010
+                    Network ID: {{kycSeeker.id}}
                 </div>
                   </div>
             </div>
-            <div class="col-sm-4">
-              <b>vudathasaiomkar@gmail.com</b>
-              <div class="col-sm-10">
-                  member since 2010
-                </div>
-             </div>
-             <div class="col-sm-4">
-                <b>vudathasaiomkar@gmail.com</b>
-                <div class="col-sm-10">
-                    member since 2010
+            <div class="col-sm-6">
+                <b>Email</b>
+                <div class="row">
+                  <div class="col-sm-10">
+                      {{kycSeeker.emailId}}
                   </div>
-             </div>
+                    </div>
+              </div>
           </div> 
     </div>
   </div>
@@ -38,34 +34,33 @@
         <div class="card-header">
                 <div class ="row">
                  <div class="col-sm-12">
-                  <h5><b>KYC Details</b></h5>
+                  <h5><b>Organisation Details </b></h5>
            
                  </div>
                  
                 </div>
               </div>
   
-  <div style="margin-left: 10px"><h4><b>Organisation Details :</b></h4></div>
   <div class="row" style="margin-left: 1px;margin-right: 2px;background-color:#dedddd17;margin-bottom:30px">
    <div class="card-body">
             <div class="row">
                 
                 <div class="col-sm-3" style="border:.5px solidgrey">
-                   <p><b>COUNTRY</b></p>
+                   <p><b>NAME</b></p>
                   <div class="col-sm-9">
-                      <h5>INDIA</h5>
+                      <h5>{{kycSeeker.organisation}}</h5>
                     </div>
                 </div>
                 <div class="col-sm-3" style="border:.5px solidgrey">
-                    <p><b>CITY</b></p>
+                    <p><b>Org ID</b></p>
                    <div class="col-sm-9">
-                       <h5>HYDERABAD</h5>
+                       <h5>{{kycSeeker.organisation_id}}</h5>
                      </div>
                  </div>
                  <div class="col-sm-3" style="margin-top:1px">
-                    <p><b>ADDRESS</b></p>
+                    <p><b>LOCATION  </b></p>
                    <div class="col-sm-9">
-                       <h5>H.NO: 78/87, Madhapur</h5>
+                       <h5>{{kycSeeker.location}}</h5>
                      </div>
                  </div>
                  <div class="col-sm-3" style="margin-top:1px">

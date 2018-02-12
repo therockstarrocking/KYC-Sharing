@@ -19,4 +19,8 @@ export class kycseekerProflieService {
     public getPendingRequests(){
         return this.http.get('http://localhost:3000/api/Kyc_Seekers_Requests',this.options).map(res=>res.json);
     }
+    public getProfileDetails(){
+        return this.ls.getUser();
+    }
+
 }
