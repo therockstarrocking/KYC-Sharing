@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,ElementRef} from '@angular/core';
 import { CustomersService } from './my-customer.component.service'
 
 @Component({
@@ -10,7 +10,9 @@ import { CustomersService } from './my-customer.component.service'
 export class MyCustomersComponent implements OnInit {
   user:any;
   userDetails:any
-  constructor(private cs:CustomersService) { 
+  individualdata:any
+  customerInfo:any;
+  constructor(private cs:CustomersService,private element: ElementRef) { 
 
   }
 
@@ -27,6 +29,22 @@ export class MyCustomersComponent implements OnInit {
         })
       }
     })
+  }
+  viewDetails(index){
+    var id=this.userDetails[index].kyc_id;
+      this.cs.getkycdetails(id).subscribe(res=>{
+      var data=res;
+      let userID = data.kyc_of_userid.split("#")
+      this.customerInfo = data;
+      this.customerInfo.kyc_of_userid = userID[1];
+      this.individualdata=data.applied_documents_status;
+   
+    var image = this.element.nativeElement.querySelector('.faimg');
+    var image1 = this.element.nativeElement.querySelector('.baimg');
+
+    image.src=this.individualdata.aadhar_documents.documents_submitted.photocopy;
+    image1.src=this.individualdata.passport_documents.documents_submitted.photocopy;
+  }) 
   }
   //http://www.personalbrandingblog.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640-300x300.png
 //user =[{}]

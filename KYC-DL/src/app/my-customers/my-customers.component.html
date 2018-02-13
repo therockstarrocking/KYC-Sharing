@@ -41,7 +41,7 @@
   </div>-->
  
   <div class="row" style="margin-top:30px;margin-left:20px;margin-right:15px;max-height:450px;overflow-y:auto;overflow-x:hidden">
-     <div *ngFor="let use of user" class="col-sm-4" style="padding: 10px">
+     <div *ngFor="let use of user;let i=index" class="col-sm-4" style="padding: 10px">
        
        <div class="row">
           <div class="card col-sm-4">
@@ -52,10 +52,63 @@
             <div class="card-body col-sm-6">
               <div>{{use.emailId}}</div>
               <div>{{use.id}}</div><br>
-              <div><button class="btn btn-outline-primary">View kyc info </button></div>
+              <div><button class="btn btn-outline-primary"  data-toggle="modal" data-target="#Request" (click)="viewDetails(i)">View kyc info </button></div>
             </div>
        </div>
       </div>
+
+      <div class="modal fade" id="Request" tabindex="-1" role="dialog" aria-labelledby="deleteAssetModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="deleteAssetModalLabel">Customer Information</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="modal-body">
+                <div class="row col-sm-4" style="line-height: 2rem">
+                   
+                    <div class="col-sm-6 ub"> USER ID </div> <div class="col-sm-6 ud">: {{customerInfo?.kyc_of_userid}}</div>
+                    <div class="col-sm-6 ub"> NAME </div><div class="col-sm-6  ud">: {{customerInfo?.KYC_Information.name}}</div>
+                    <div class="col-sm-6 ub"> GENDER</div><div class="col-sm-6  ud">: {{customerInfo?.KYC_Information.gender}}</div>
+                    <div class="col-sm-6 ub"> BIRTHDAY</div><div class="col-sm-6  ud">: {{customerInfo?.KYC_Information.birth_details.dateOfBirth}}</div>
+                    <div class="col-sm-6 ub"> BRITH PLACE</div><div class="col-sm-6  ud">: {{customerInfo?.KYC_Information.birth_details.birth_place}}</div><br>
+                    <div class="col-sm-6 ub"> NATIONALITY </div><div class="col-sm-6  ud">: {{customerInfo?.KYC_Information.address.nationality}}</div>
+                    <div class="col-sm-6 ub"> CITY </div><div class="col-sm-6  ud">: {{customerInfo?.KYC_Information.address.city}}</div>
+                    <div class="col-sm-6 ub"> POSTAL CODE </div><div class="col-sm-6  ud">: {{customerInfo?.KYC_Information.address.postal_Code}}</div>
+                    <div class="col-sm-6 ub"> Address </div><div class="col-sm-6  ud">: {{customerInfo?.KYC_Information.address.Address}}</div>        
+                   
+                </div>
+                <div class="col-sm-8">
+                  <div class="row col-sm-12">
+                    <div class="col-sm-6">
+                      <img class="col-sm-12 faimg"  style="border-radius:1%;height:200px;">
+                    </div>
+                    <div class="col-sm-6">
+                      <img class="col-sm-12 baimg"  style="border-radius:1%;height:200px;">
+                    </div>
+                  </div>
+                  <div class="row col-sm-12">
+                    <div class="col-sm-6">
+                      <b class="hinfo">Aadhar Number</b> <p>{{individualdata?.aadhar_documents.documents_submitted.number}}</p> 
+                      <b class="hinfo">Approved By </b> <p>{{individualdata?.aadhar_documents.approvedByAadharAdminId}}</p>
+                      <b class="hinfo">Issue Date</b> <p>{{individualdata?.aadhar_documents.documents_submitted.date_Of_issue}}</p>  
+                      <b class="hinfo">Status</b> <p>{{individualdata?.aadhar_documents.status}}</p>                
+                    </div>
+                    <div class="col-sm-6">
+                      <b class="hinfo">Passport Number</b> <p>{{individualdata?.passport_documents.documents_submitted.number}}</p> 
+                      <b class="hinfo">Approved By</b> <p>{{individualdata?.passport_documents.approvedByPassportAdminId}}</p>
+                      <b class="hinfo">Issue Date</b> <p>{{individualdata?.passport_documents.documents_submitted.date_Of_issue}}</p>  
+                      <b class="hinfo">Status</b> <p>{{individualdata?.passport_documents.status}}</p>                
+                    </div>
+                  </div>
+               </div>
+              </div>
+              <div class="modal-footer">
+                
+              </div>
+            </div>
+          </div>
+        </div>
 
      <!--<div class="row col-sm-4" style="padding: 10px">
         <div class="card col-sm-4">

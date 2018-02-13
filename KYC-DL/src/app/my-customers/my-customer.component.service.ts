@@ -29,4 +29,8 @@ export class CustomersService {
     public getUser(userid){
         return this.http.get('http://localhost:3000/api/User/'+userid+'',this.options).map(res => res.json())
     }
+    public getkycdetails(kycid){
+        return this.http.get('http://localhost:3000/api/KYC_Details/'+kycid+'',this.options).map(res => res.json())
+        
+    }
 }

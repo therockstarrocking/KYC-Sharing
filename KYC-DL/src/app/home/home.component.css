@@ -22,16 +22,22 @@ body {
   -o-animation: op 3s; /* Opera */
   animation: op 3s;
 }
-
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
 .bg {  
   -webkit-animation: bg-fadein 5s; /* Safari and Chrome */
-  -moz-animation: bg-fadein 20s; /* Firefox */
-  -ms-animation: bg-fadein 20s; /* Internet Explorer */
-  -o-animation: bg-fadein 20s; /* Opera */
-  animation: bg-fadein 30s;
-  opacity: 0.5;
+  -moz-animation: bg-fadein 5s; /* Firefox */
+  -ms-animation: bg-fadein 5s; /* Internet Explorer */
+  -o-animation: bg-fadein 5s; /* Opera */
+  animation: bg-fadein 5s;
+  opacity: 0.6;
   content: "";
-  /*background: url('../../assets/download.jpeg');*/
+  background: url('https://cdn-images-1.medium.com/max/1500/1*5rheZyqpkO1oUbvObLFHlA.png');
   top: 0;
   left: 0;
   bottom: 0;
@@ -41,7 +47,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  filter: blur(10px);
+  filter: blur(5px);
 }
 
 .container {
