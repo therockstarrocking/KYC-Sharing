@@ -4,7 +4,7 @@
       <a class="navbar-brand col-sm-12 col-md-2 mr-0" href="#">Kyc-Center</a>
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-          <label style="font-style:bold;color:#fff;padding-bottom: 7px;margin-left: 220%;margin-top: 12px;">Welcome    {{userDetails.name}} 
+          <label style="font-style:bold;color:#fff;padding-bottom: 7px;margin-left: 220%;margin-top: 12px;">{{userDetails.name}} 
             <!--<span data-feather="log-out" style="color:red"></span>-->
             <span style="cursor:pointer;color:rgb(248, 9, 9)" (click)="logout()"> Logout</span></label>
         </li>
@@ -16,7 +16,7 @@
           <div class="sidebar-sticky">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link active" [routerLink]="['profile']">
+                <a class="nav-link" [routerLink]="['profile']">
                   <span data-feather="home"></span>
                   Profile <span class="sr-only">(current)</span>
                 </a>

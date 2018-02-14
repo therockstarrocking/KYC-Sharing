@@ -78,6 +78,10 @@ export class RequestsForVerifierComponent implements OnInit {
       alert("Please specify your REMARKS");
       return;
     }else{*/
+      if(this.updateStatusform.value == {}){
+        alert("Please select your response");
+        return;
+      }
       var updateForm = {};
       //this.updateStatusform.controls['aadhar_verifications_ID'].setValue(this.currentRequestId);
       if(this.user.$class == "org.acme.kyc.Passport_Admin"){
@@ -89,6 +93,10 @@ export class RequestsForVerifierComponent implements OnInit {
       console.log("form values:",updateForm)
       this.rfvs.updateAadharStatus(updateForm).subscribe(res =>{
         console.log("Response: ",res);
+        this.element.nativeElement.querySelector('.btn-outline-danger').click();
+        this.getAllRequests();
+      },err=>{
+        console.error("error:",err)
       })
     //}
   }

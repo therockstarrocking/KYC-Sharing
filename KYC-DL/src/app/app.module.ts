@@ -14,21 +14,20 @@ import { HomeComponent } from './home/home.component';
 //import { DialogDataExampleDialog } from './requests-for-verifier/dialog-data-example'
 // import { TransactionComponent } from './Transaction/Transaction.component'
 
-import {ProfileComponent} from './profile/profile.component';
-import {MyCustomersComponent} from './my-customers/my-customers.component';
-import { Kyc_Seekers_RequestsComponent } from './Kyc_Seekers_Requests/Kyc_Seekers_Requests.component';
-import { DocumentsVerifierComponent } from './documents-verifier/documents-verifier.component';
-import { VerifierProfileComponent } from './verifier-profile/verifier-profile.component';
-import { RequestsForVerifierComponent } from './requests-for-verifier/requests-for-verifier.component';
-import { KYC_DetailsComponent } from './KYC_Details/KYC_Details.component';
-import { KycdetailsComponent } from './kycdetails/kycdetails.component'
-import {KycsharedComponent} from './kycshared/kycshared.component';
-import {MyprofileComponent} from './myprofile/myprofile.component';
-import {UserComponent} from './user/user.component';
-import {DashboardComponent} from './dashboard/dashboard.component';
-import {KycapprovalComponent} from './kycapproval/kycapproval.component';
-import {KycComponent} from './kyc/kyc.component';
-import { KycseekerPendingRequestsComponent } from './kycseeker-pending-requests/kycseeker-pending-requests.component';
+import {ProfileComponent} from './Seekers_profile/profile.component';
+import {MyCustomersComponent} from './Seekers_customers/my-customers.component';
+import { DocumentsVerifierComponent } from './Verifier_landingPage/documents-verifier.component';
+import { VerifierProfileComponent } from './Verifier_profile/verifier-profile.component';
+import { RequestsForVerifierComponent } from './Verifier_Requests/requests-for-verifier.component';
+import { KYC_DetailsComponent } from './Users_kycEnrollment/KYC_Details.component';
+import { KycdetailsComponent } from './Users_kycDetails/kycdetails.component'
+import {KycsharedComponent} from './Users_kycSharing/kycshared.component';
+import {MyprofileComponent} from './Users_profile/myprofile.component';
+import {UserComponent} from './Users_landingPage/user.component';
+import {DashboardComponent} from './Users_main_dashboard/dashboard.component';
+import {KycapprovalComponent} from './Users_kycRequests/kycapproval.component';
+import {KycComponent} from './Seekers_landingPage/kyc.component';
+import { KycseekerPendingRequestsComponent } from './Seekers_pendingRequests/kycseeker-pending-requests.component';
 import { AuthGuardService } from './authgaurd.service';
 
 @NgModule({
@@ -38,7 +37,6 @@ import { AuthGuardService } from './authgaurd.service';
     UserComponent,
     // TransactionComponent,
     KYC_DetailsComponent,
-		Kyc_Seekers_RequestsComponent,
 		DocumentsVerifierComponent,
 		
     VerifierProfileComponent,

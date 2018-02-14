@@ -9,7 +9,6 @@ import { VerifierProfileComponentService} from './verifier-profile.component.ser
   providers:[VerifierProfileComponentService]
 })
 export class VerifierProfileComponent implements OnInit {
-
   requests:any;
   user:any;
   constructor(private vs:VerifierProfileComponentService){
