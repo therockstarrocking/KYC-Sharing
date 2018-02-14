@@ -14,5 +14,8 @@ export class DocumentsVerifierComponent implements OnInit {
     this.userDetails = this.ls.getUser();
     console.log("Administrator Details: ",this.userDetails);
   }
+  logout(){
+    this.ls.logout()
+  }
 
 }

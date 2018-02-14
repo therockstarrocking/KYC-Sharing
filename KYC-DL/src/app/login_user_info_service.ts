@@ -10,7 +10,7 @@ export class LoginUserInfoService {
     private userDetails:any;
     private headers: Headers;
 	private accessToken = "orK0zjnv50BboAIeLU5nBbKjgQ1kuvLtA1vajwLupxVJaCaDdofCC6RL9DZLSt3l";
-    constructor(private http: Http){
+    constructor(private http: Http,private route: ActivatedRoute,private router: Router){
 		
         this.headers = new Headers();
         this.headers.append('Content-Type', 'application/json');
@@ -42,6 +42,10 @@ export class LoginUserInfoService {
     }
     public getToken(){
         return this.accessToken;
+    }
+    public logout(){
+        this.userDetails = null;
+        this.router.navigate(['home']);
     }
  
 }

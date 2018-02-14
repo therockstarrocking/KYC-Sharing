@@ -11,4 +11,7 @@ export class UserComponentService {
     public getUser(){
         return this.ls.getUser();
     }
+    public logout(){
+        this.ls.logout();
+    }
 }

@@ -29,8 +29,10 @@ export class KycComponent implements OnInit {
           }
         })
     })
-    
     //console.log(this.askKycForm.value);
+  }
+  logout(){
+    this.ks.logout();
   }
 
 }

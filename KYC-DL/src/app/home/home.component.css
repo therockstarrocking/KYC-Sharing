@@ -7,21 +7,6 @@
 /*ANIMATE*/
 @import url(//daneden.github.io/animate.css/animate.min.css);
 
-
-body {
-  margin: 0;  
-  line-height: 1.5;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-align: center;
-  font-weight: 300;
-  color: white;
-  /*background-color: #0c0a1e;
-   -webkit-animation: op 3s; /* Safari and Chrome */
-  -moz-animation: op 3s; /* Firefox */
-  -ms-animation: op 3s; /* Internet Explorer */
-  -o-animation: op 3s; /* Opera */
-  animation: op 3s;
-}
 #myVideo {
   position: fixed;
   right: 0;

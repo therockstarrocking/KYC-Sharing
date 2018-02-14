@@ -17,6 +17,9 @@ export class UserComponent implements OnInit {
   ngOnInit() {
     //this.router.navigate(['../myprofile'])
   }
+  logout(){
+    this.us.logout();
+  }
 
 }
 

@@ -35,4 +35,7 @@ export class KycseekerService {
         alert("no User found in the network")
         return Observable.throw(errMsg);
     }
+    public logout(){
+        this.ls.logout();
+    }
 }
