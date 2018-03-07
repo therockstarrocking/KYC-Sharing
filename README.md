@@ -56,7 +56,7 @@ KYC infomation sharing POC using Hyperledger-composer
 >> NOTE: Make sure you setup Github oauth for this application
 * Composer provider command :
 
-    `COMPOSER_PROVIDERS='{"github":{"provider":"github","module":"passport-github","clientID":"569a9dab016aaf6ebcd7","clientSecret":"5bc58f2006d7f96f05b2969ed897721fcbcb1820","authPath":"/auth/github","callbackURL":"/auth/github/callback","successRedirect":"/","failureRedirect":"/"}}'`
+    `COMPOSER_PROVIDERS='{"github":{"provider":"github","module":"passport-github","clientID":"569a16aaf6ebcd7","clientSecret":"006d7f96f05b2969ed897721fcbcb1820","authPath":"/auth/github","callbackURL":"/auth/github/callback","successRedirect":"/","failureRedirect":"/"}}'`
 
     Replace *clientID* and *clientSecret* with your credentials
 * Run the below command to start the Rest server
