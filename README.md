@@ -68,6 +68,7 @@ KYC infomation sharing POC using Hyperledger-composer
 #### To start the App 
 
 > Change the accessToken variable in loginService to the Access token got from [http://localhost:3000/auth/github/](http://localhost:3000/auth/github/)
+
 ` cd ../KYC-DL`
 
 ` npm install `
