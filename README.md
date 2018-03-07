@@ -1,4 +1,4 @@
-# KYC-Sharing-
+# KYC-Sharing
 KYC infomation sharing POC using Hyperledger-composer
 
 ## Running App
@@ -57,17 +57,19 @@ KYC infomation sharing POC using Hyperledger-composer
 * Composer provider command :
 
     `COMPOSER_PROVIDERS='{"github":{"provider":"github","module":"passport-github","clientID":"569a9dab016aaf6ebcd7","clientSecret":"5bc58f2006d7f96f05b2969ed897721fcbcb1820","authPath":"/auth/github","callbackURL":"/auth/github/callback","successRedirect":"/","failureRedirect":"/"}}'`
-    * Replace *clientID* and *clientSecret* with your credentials
+     Replace *clientID* and *clientSecret* with your credentials
 * Run the below command to start the Rest server
 
- `composer-rest-server -c admin@kyc-dl -n "never" -p 3000 -a true -m true`
+`composer-rest-server -c admin@kyc-dl -n "never" -p 3000 -a true -m true`
 
 * Go to [http://localhost:3000/auth/github/](http://localhost:3000/auth/github/)
 
 #### To start the App 
 
 ` cd ../KYC-DL`
+
 ` npm install `
+
 ` ng serve ` 
 
 * Go to [http://localhost:4200/](http://localhost:4200)
