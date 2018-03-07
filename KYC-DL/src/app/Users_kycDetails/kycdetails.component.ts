@@ -1,5 +1,4 @@
 import { Component, OnInit,ElementRef } from '@angular/core';
-import { KYC_DetailsService } from 'app/KYC_Details/KYC_Details.service';
 import {LoginUserInfoService} from '../login_user_info_service';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/Rx';
@@ -8,7 +7,6 @@ import 'rxjs/Rx';
   selector: 'app-kycdetails',
   templateUrl: './kycdetails.component.html',
   styleUrls: ['./kycdetails.component.css'],
-  providers:[KYC_DetailsService]
 })
 export class KycdetailsComponent implements OnInit {
 
