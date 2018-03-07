@@ -32,7 +32,7 @@ KYC infomation sharing POC using Hyperledger-composer
     * `composer card import --file networkadmin.card`
 
 4. To check that the business network has been deployed successfully, run the following command to ping the network:
-        * `composer network ping --card admin@tutorial-network`
+     * `composer network ping --card admin@tutorial-network`
 
 #### Generating a REST server
 
