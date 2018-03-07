@@ -10,9 +10,10 @@ import 'rxjs/add/operator/catch';
 
 export class KycseekerService {
     private headers:Headers;
-    private accessToken = "orK0zjnv50BboAIeLU5nBbKjgQ1kuvLtA1vajwLupxVJaCaDdofCC6RL9DZLSt3l";
+    private accessToken; //= "orK0zjnv50BboAIeLU5nBbKjgQ1kuvLtA1vajwLupxVJaCaDdofCC6RL9DZLSt3l";
     private options:RequestOptions;
     constructor(private ls:LoginUserInfoService,private http:Http){ 
+        this.accessToken= this.ls.getToken()
         this.headers = new Headers();
         this.headers.append('Content-Type', 'application/json');
         this.headers.append('Accept', 'application/json');

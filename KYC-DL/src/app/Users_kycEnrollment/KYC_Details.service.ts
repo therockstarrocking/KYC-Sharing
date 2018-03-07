@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { DataService } from '../data.service';
+import { LoginUserInfoService } from '../login_user_info_service';
 import { Http, Response, Headers ,RequestOptions} from '@angular/http';
 import {ActivatedRoute, Router, RouterModule} from '@angular/router';
 import { Observable } from 'rxjs/Observable';
@@ -10,13 +11,14 @@ import 'rxjs/Rx';
 @Injectable()
 export class KYC_DetailsService {
   private headers: Headers;
-	private accessToken = "orK0zjnv50BboAIeLU5nBbKjgQ1kuvLtA1vajwLupxVJaCaDdofCC6RL9DZLSt3l";
-	constructor(private dataService: DataService<any>,private http: Http){
-		
-        this.headers = new Headers();
-        this.headers.append('Content-Type', 'application/json');
-        this.headers.append('Accept', 'application/json');
-		this.headers.append('X-Access-Token',this.accessToken);
+	private accessToken;// = "orK0zjnv50BboAIeLU5nBbKjgQ1kuvLtA1vajwLupxVJaCaDdofCC6RL9DZLSt3l";
+	constructor(private ls:LoginUserInfoService,private dataService: DataService<any>,private http: Http){
+    this.accessToken = this.ls.getToken();
+    this.headers = new Headers();
+    this.headers.append('Content-Type', 'application/json');
+    this.headers.append('Accept', 'application/json');
+    this.headers.append('X-Access-Token',this.accessToken);
+    
 	}
   public send_kyc_request_transaction(data){
     var options = new RequestOptions({headers : this.headers})

@@ -9,7 +9,7 @@ import 'rxjs/Rx';
 export class LoginUserInfoService {
     private userDetails:any;
     private headers: Headers;
-	private accessToken = "orK0zjnv50BboAIeLU5nBbKjgQ1kuvLtA1vajwLupxVJaCaDdofCC6RL9DZLSt3l";
+	private accessToken = "yaAbLGV5gi2TktrjHsESlSS9H2yRBmZ2S4d6ahSUriqhNhwQ1ibpwMLWhgGZgzHe";
     constructor(private http: Http,private route: ActivatedRoute,private router: Router){
 		
         this.headers = new Headers();
@@ -33,7 +33,7 @@ export class LoginUserInfoService {
     }
     public get_kyc_deatils():any{
         var options = new RequestOptions({headers : this.headers})
-        var kycid=  this.userDetails.kyc_id.split('#');
+        var kycid =  this.userDetails.kyc_id.split('#');
         var userType = kycid[1];
         return this.http.get('http://localhost:3000/api/KYC_Details/'+userType+'',options).map(this.extractData);
     }

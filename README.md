@@ -32,7 +32,7 @@ KYC infomation sharing POC using Hyperledger-composer
     * `composer card import --file networkadmin.card`
 
 4. To check that the business network has been deployed successfully, run the following command to ping the network:
-     * `composer network ping --card admin@tutorial-network`
+     * `composer network ping --card admin@kyc-dl`
 
 #### Generating a REST server
 
@@ -56,7 +56,7 @@ KYC infomation sharing POC using Hyperledger-composer
 >> NOTE: Make sure you setup Github oauth for this application
 * Composer provider command :
 
-    `COMPOSER_PROVIDERS='{"github":{"provider":"github","module":"passport-github","clientID":"569a16aaf6ebcd7","clientSecret":"006d7f96f05b2969ed897721fcbcb1820","authPath":"/auth/github","callbackURL":"/auth/github/callback","successRedirect":"/","failureRedirect":"/"}}'`
+    `export COMPOSER_PROVIDERS='{"github":{"provider":"github","module":"passport-github","clientID":"569a16aaf6ebcd7","clientSecret":"006d7f96f05b2969ed897721fcbcb1820","authPath":"/auth/github","callbackURL":"/auth/github/callback","successRedirect":"/","failureRedirect":"/"}}'`
 
     Replace *clientID* and *clientSecret* with your credentials
 * Run the below command to start the Rest server
@@ -67,6 +67,7 @@ KYC infomation sharing POC using Hyperledger-composer
 
 #### To start the App 
 
+> Change the accessToken variable in loginService to the Access token got from [http://localhost:3000/auth/github/](http://localhost:3000/auth/github/)
 ` cd ../KYC-DL`
 
 ` npm install `

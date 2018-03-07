@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Http, Response, Headers ,RequestOptions} from '@angular/http';
 import { FormBuilder,FormControl,FormArray, Validators } from '@angular/forms';
 import { DataService } from '../data.service';
+import { LoginUserInfoService } from '../login_user_info_service';
 import {ActivatedRoute, Router, RouterModule} from '@angular/router';
 import { HomeComponentService } from './home.component.service'
 
@@ -13,10 +14,10 @@ import { HomeComponentService } from './home.component.service'
 })
 export class HomeComponent {
 	private headers: Headers;
-	private accessToken = "orK0zjnv50BboAIeLU5nBbKjgQ1kuvLtA1vajwLupxVJaCaDdofCC6RL9DZLSt3l";
-	constructor(private dataService: DataService<any>,private http: Http,public fb: FormBuilder,private route: ActivatedRoute,
+	private accessToken;// = "yaAbLGV5gi2TktrjHsESlSS9H2yRBmZ2S4d6ahSUriqhNhwQ1ibpwMLWhgGZgzHe";
+	constructor(private ls:LoginUserInfoService,private dataService: DataService<any>,private http: Http,public fb: FormBuilder,private route: ActivatedRoute,
         private router: Router,private hs:HomeComponentService){
-		
+		this.accessToken = this.ls.getToken();
         this.headers = new Headers();
         this.headers.append('Content-Type', 'application/json');
         this.headers.append('Accept', 'application/json');
